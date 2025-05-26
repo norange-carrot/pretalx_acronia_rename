@@ -1,0 +1,6 @@
+recursive-include pretalx_acronia_rename/static *
+recursive-include pretalx_acronia_rename/templates *
+exclude pretalx_acronia_rename/locale/django.pot
+recursive-include pretalx_acronia_rename/locale *
+recursive-include pretalx_acronia_rename *.py
+include Makefile

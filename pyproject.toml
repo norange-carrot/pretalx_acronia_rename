@@ -1,0 +1,38 @@
+[project]
+name = "pretalx-acronia-rename"
+dynamic = ["version"]
+description = "Pretalx plugin to change some pretalx wording"
+readme = "README.rst"
+license = {text = "Apache Software License"}
+keywords = ["pretalx"]
+authors = [
+  {name = "Nora Küchler", email = "your-email@example.org"},
+]
+maintainers = [
+  {name = "Nora Küchler", email = "your-email@example.org"},
+]
+
+dependencies = []
+
+[project.urls]
+homepage = "https://github.com/your-email/pretalx-acronia-rename"
+repository = "https://github.com/your-email/pretalx-acronia-rename.git"
+
+[project.entry-points."pretalx.plugin"]
+pretalx_acronia_rename = "pretalx_acronia_rename:PretalxPluginMeta"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = {attr = "pretalx_acronia_rename.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["pretalx*"]
+
+[tool.check-manifest]
+ignore = [".*"]
