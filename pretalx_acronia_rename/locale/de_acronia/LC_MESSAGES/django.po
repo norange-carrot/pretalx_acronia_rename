@@ -33,7 +33,7 @@ msgstr "Dieser Beitrag wird nicht aufgezeichnet."
 
 #: pretalx/agenda/phrases.py:13
 msgid "View conference schedule"
-msgstr "Programm ansehen"
+msgstr "Workshop-Plan ansehen"
 
 #: pretalx/agenda/phrases.py:14
 msgid "View schedule preview"
@@ -103,12 +103,12 @@ msgstr ""
 #: pretalx/agenda/templates/agenda/feed/description.html:5
 #, python-format
 msgid "A new %(event_name)s schedule has been released!"
-msgstr "Ein neues %(event_name)s Programm wurde veröffentlicht!"
+msgstr "Ein neuer %(event_name)s Workshop-Plan wurde veröffentlicht!"
 
 #: pretalx/agenda/templates/agenda/feed/description.html:9
 #, python-format
 msgid "The first %(event_name)s schedule has been released!"
-msgstr "Das erste %(event_name)s Programm wurde veröffentlicht!"
+msgstr "Der erste %(event_name)s Workshop-Plan wurde veröffentlicht!"
 
 #: pretalx/agenda/templates/agenda/feedback.html:9
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:137
@@ -151,8 +151,8 @@ msgid ""
 "To see our schedule, please either enable JavaScript or go <a "
 "href=\"%(href)s\">here</a> for our NoJS schedule."
 msgstr ""
-"Um unser Programm zu sehen, aktiviere bitte JavaScript oder klicke <a "
-"href=\"%(href)s\">hier</a>, um unser JavaScript-freies Programm zu sehen."
+"Um unseren Workshop-Plan zu sehen, aktiviere bitte JavaScript oder klicke <a "
+"href=\"%(href)s\">hier</a>, um unseren JavaScript-freien Workshop-Plan zu sehen."
 
 #: pretalx/agenda/templates/agenda/schedule_nojs.html:21
 #, python-format
@@ -161,7 +161,7 @@ msgid ""
 "personal scheduling, please enable JavaScript and go <a "
 "href=\"%(href)s\">here</a>."
 msgstr ""
-"Um unser Programm mit voller Funktionalität zu sehen, wie Zeitzonen und "
+"Um unseren Workshop-Plan mit voller Funktionalität zu sehen, wie Zeitzonen und "
 "persönlicher Programmgestaltung, schalte bitte JavaScript an und klicke <a "
 "href=\"%(href)s\">hier</a>."
 
@@ -211,7 +211,7 @@ msgstr "Diese(r) Teacher hält außerdem:"
 
 #: pretalx/agenda/views/schedule.py:176
 msgid "Our schedule is not live yet."
-msgstr "Das Programm ist derzeit nicht öffentlich einsehbar."
+msgstr "Der Workshop-Plan ist derzeit nicht öffentlich einsehbar."
 
 #: pretalx/agenda/views/schedule.py:232
 msgid ""
@@ -665,7 +665,7 @@ msgid ""
 "This data will be displayed publicly if your proposal is accepted. It is "
 "also visible to reviewers."
 msgstr ""
-"Diese Daten werden öffentlich neben deinem Beitrag im Programm angezeigt, "
+"Diese Daten werden öffentlich neben deinem Beitrag im Workshop-Plan angezeigt, "
 "wenn deine Einreichung angenommen wird. Vorher sind sie nur für Reviewer "
 "zugänglich."
 
@@ -718,7 +718,7 @@ msgid ""
 "schedule your event accordingly:"
 msgstr ""
 "Bitte trag hier ein, wann du während der Veranstaltung Zeit hast, damit wir "
-"dir einen geeigneten Zeitpunkt im Programm suchen können:"
+"dir einen geeigneten Zeitpunkt im Workshop-Plan suchen können:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:39
 msgid ""
@@ -730,7 +730,7 @@ msgstr ""
 "Wenn du deine Einreichung bestätigst, sagst du damit, dass du an dieser "
 "Veranstaltung teilnimmst und deine Einreichung präsentieren wirst. Die "
 "Einreichungsdaten, wie Titel, Beschreibung, und Dateien, die du hochgeladen "
-"hast, können öffentlich im Programm angezeigt werden, sobald die Einreichung "
+"hast, können öffentlich im Workshop-Plan angezeigt werden, sobald die Einreichung "
 "bestätigt ist."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:49
@@ -973,7 +973,7 @@ msgstr "Ressourcen"
 #| msgid "Once you release your schedule, it will be publicly visible."
 msgid "Resources will be publicly visible."
 msgstr ""
-"Wenn du eine Programmversion erstellst, wird sie öffentlich einsehbar sein."
+"Wenn du eine Workshop-Plan-Version erstellst, wird sie öffentlich einsehbar sein."
 
 #: pretalx/cfp/templates/cfp/includes/submission_resources_form.html:62
 msgid "This proposal has no resources yet."
@@ -1301,7 +1301,7 @@ msgstr "Ein Raum wurde hinzugefügt."
 
 #: pretalx/common/log_display.py:83
 msgid "A new schedule version was released."
-msgstr "Eine neue Programmversion wurde veröffentlicht."
+msgstr "Eine neue Workshop-Plan-Version wurde veröffentlicht."
 
 #: pretalx/common/log_display.py:84
 msgid "The proposal was accepted."
@@ -1552,7 +1552,7 @@ msgstr ""
 "   {event_team}\n"
 "- Übersicht über Reviews gibt es hier:\n"
 "   {event_review}\n"
-"- Und hier könnt ihr ein Programm erstellen, wenn ihr die ersten "
+"- Und hier könnt ihr einen Workshop-Plan erstellen, wenn ihr die ersten "
 "Einreichungen\n"
 "angenommen habt:\n"
 "   {event_schedule}\n"
@@ -1584,7 +1584,7 @@ msgstr ""
 "- Es gab {submission_count} Einreichungen,\n"
 "- von denen {talk_count} Workshops ausgewählt wurden.\n"
 "- Die Reviewer haben {review_count} Reviews verfasst.\n"
-"- Es wurden {schedule_count} Programmversionen veröffentlicht.\n"
+"- Es wurden {schedule_count} Workshop-Plan-Versionen veröffentlicht.\n"
 "- Über dieses Event wurden {mail_count} Mails verschickt.\n"
 "\n"
 "Wenn dir in pretalx noch etwas fehlt, schreib es uns gerne\n"
@@ -2620,11 +2620,11 @@ msgstr "Nimm Einreichungen an"
 
 #: pretalx/event/stages.py:79
 msgid "Build your first schedule"
-msgstr "Erstell die erste Programmversion"
+msgstr "Erstell die erste Workshop-Plan-Version"
 
 #: pretalx/event/stages.py:88
 msgid "Release schedules as needed"
-msgstr "Veröffentliche weitere Programmversionen"
+msgstr "Veröffentliche weitere Workshop-Plan-Versionen"
 
 #: pretalx/event/stages.py:92
 msgid "Inform your speakers about the infrastructure"
@@ -2760,19 +2760,19 @@ msgstr "Alle Bewertungstexte für diese Einreichung"
 
 #: pretalx/mail/context.py:213
 msgid "The session’s start date"
-msgstr "Startdatum des Programmpunkts"
+msgstr "Startdatum des Workshops"
 
 #: pretalx/mail/context.py:220
 msgid "The session’s start time"
-msgstr "Startuhrzeit des Programmpunkts"
+msgstr "Startuhrzeit des Workshops"
 
 #: pretalx/mail/context.py:227
 msgid "The session’s end date"
-msgstr "Enddatum des Programmpunkts"
+msgstr "Enddatum des Workshops"
 
 #: pretalx/mail/context.py:234
 msgid "The session’s end time"
-msgstr "Enduhrzeit des Programmpunkts"
+msgstr "Enduhrzeit des Workshops"
 
 #: pretalx/mail/context.py:240
 msgid "Room 101"
@@ -2780,7 +2780,7 @@ msgstr "Raum 101"
 
 #: pretalx/mail/context.py:241
 msgid "The session’s room"
-msgstr "Der Raum des Programmpunkts"
+msgstr "Der Raum des Workshops"
 
 #: pretalx/mail/context.py:247
 msgid "Jane Doe"
@@ -2808,7 +2808,7 @@ msgid ""
 "A list of all changes to the user’s schedule in the current schedule version."
 msgstr ""
 "Eine Liste aller Änderungen an den Beiträgen dieser Nutzer*in in der "
-"aktuellen Programmversion."
+"aktuellen Workshop-Plan-Version."
 
 #: pretalx/mail/context.py:281
 #, python-brace-format
@@ -2884,14 +2884,14 @@ msgstr ""
 "“{submission_title}” für\n"
 "{event_name} akzeptiert haben. Bitte klicke auf den folgenden Link um zu "
 "bestätigen, dass\n"
-"du kommst und deinen Programmpunkt beisteuerst:\n"
+"du kommst und deinen Workshop beisteuerst:\n"
 "\n"
 "    {confirmation_link}\n"
 "\n"
 "Wir freuen uns, dich zu sehen. Bitte melde dich bei uns, wenn du "
 "irgendwelche Fragen hast.\n"
 "Wir werden uns vor der Veranstaltung nochmal bei dir melden und dir Details "
-"zur Programmplanung\n"
+"zur Workshop-Planung\n"
 "und zu technischen und räumlichen Gegebenheiten mitteilen.\n"
 "\n"
 "Bis dann!\n"
@@ -2923,7 +2923,7 @@ msgstr ""
 
 #: pretalx/mail/default_templates.py:53
 msgid "New schedule!"
-msgstr "Neues Programm!"
+msgstr "Neuer Workshop-Plan!"
 
 #: pretalx/mail/default_templates.py:56
 #, python-brace-format
@@ -2941,7 +2941,7 @@ msgid ""
 msgstr ""
 "Hi!\n"
 "\n"
-"Wir haben eine neue Programmversion veröffentlicht und wollten Dir "
+"Wir haben eine neue Workshop-Plan-Version veröffentlicht und wollten Dir "
 "mitteilen:\n"
 "\n"
 "{speaker_schedule_new}\n"
@@ -3155,7 +3155,7 @@ msgstr "Erinnerungen verschicken"
 #, fuzzy
 #| msgid "Make schedule public"
 msgid "New schedule published"
-msgstr "Programm veröffentlichen"
+msgstr "Workshop-Plan veröffentlichen"
 
 #: pretalx/mail/models.py:75 pretalx/mail/models.py:244
 msgid "Reply-To"
@@ -3519,14 +3519,14 @@ msgstr ""
 
 #: pretalx/orga/forms/event.py:88
 msgid "Show schedule publicly"
-msgstr "Programm öffentlich zeigen"
+msgstr "Workshop-Plan öffentlich zeigen"
 
 #: pretalx/orga/forms/event.py:90
 msgid ""
 "Unset to hide your schedule, e.g. if you want to use the HTML export "
 "exclusively."
 msgstr ""
-"Deaktiviere diese Option, um dein Programm nicht öffentlich zu zeigen, z.B. "
+"Deaktiviere diese Option, um deinen Workshop-Plan nicht öffentlich zu zeigen, z.B. "
 "weil du den HTML-Export nutzt."
 
 #: pretalx/orga/forms/event.py:100
@@ -3540,7 +3540,7 @@ msgstr "Nie"
 
 #: pretalx/orga/forms/event.py:103
 msgid "Until the first schedule is released"
-msgstr "Bis das erste Programm veröffentlicht wird"
+msgstr "Bis der erste Workshop-Plan veröffentlicht wird"
 
 #: pretalx/orga/forms/event.py:104 pretalx/submission/models/review.py:291
 msgid "Always"
@@ -3552,7 +3552,7 @@ msgid ""
 "schedule release, or to highlight them once the schedule is visible."
 msgstr ""
 "Einreichungen als „featured“ zu markieren, ist ein guter Weg, sie schon vor "
-"der ersten Programmversion zu veröffentlichen, oder sie später stärker "
+"der ersten Workshop-Plan-Version zu veröffentlichen, oder sie später stärker "
 "hervorzuheben."
 
 #: pretalx/orga/forms/event.py:112
@@ -3567,7 +3567,7 @@ msgstr ""
 
 #: pretalx/orga/forms/event.py:119
 msgid "Generate HTML export on schedule release"
-msgstr "HTML-Export bei Veröffentlichung einer Programm-Version erstellen"
+msgstr "HTML-Export bei Veröffentlichung einer Workshop-Plan-Version erstellen"
 
 #: pretalx/orga/forms/event.py:121
 msgid ""
@@ -3587,9 +3587,9 @@ msgid ""
 "absolute URL to be set in various places. Please only set this value once "
 "you have published your schedule. Should end with a slash."
 msgstr ""
-"Falls das Programm über den HTML-Export publiziert wird, sollte an den "
+"Falls der Workshop-Plan über den HTML-Export publiziert wird, sollte an den "
 "passenden Stellen der korrekte Link stehen. Bitte setze diesen Wert erst, "
-"wenn das Programm publiziert wurde. Sollte mit einem / enden."
+"wenn der Workshop-Plan publiziert wurde. Sollte mit einem / enden."
 
 #: pretalx/orga/forms/event.py:141
 msgid "Ask search engines not to index the event pages"
@@ -3619,9 +3619,9 @@ msgid ""
 "event dates. You will have to release a new schedule version to notify all "
 "speakers."
 msgstr ""
-"Alle Workshops, die schon Teil des Programms sind, werden verschoben, wenn "
+"Alle Workshops, die schon Teil des Workshop-Plans sind, werden verschoben, wenn "
 "das Veranstaltungsdatum sich ändert. Um die Teacher zu benachrichtigen, "
-"müsst ihr eine neue Programmversion veröffentlichen."
+"müsst ihr eine neue Workshop-Plan-Version veröffentlichen."
 
 #: pretalx/orga/forms/event.py:186
 msgid "Please do not choose the default domain as custom event domain."
@@ -3827,15 +3827,15 @@ msgstr ""
 
 #: pretalx/orga/forms/event.py:564
 msgid "Show the widget even if the schedule is not public"
-msgstr "Widget anzeigen, auch wenn das Programm nicht öffentlich ist"
+msgstr "Widget anzeigen, auch wenn der Workshop-Plan nicht öffentlich ist"
 
 #: pretalx/orga/forms/event.py:566
 msgid ""
 "Set to allow external pages to show the schedule widget, even if the "
 "schedule is not shown here using pretalx."
 msgstr ""
-"Setze diesen Haken, um das Programm-Widget auch dann auf externen Seiten "
-"nutzen zu können, wenn das Programm nicht hier auf den pretalx-Seiten "
+"Setze diesen Haken, um das Workshop-Plan-Widget auch dann auf externen Seiten "
+"nutzen zu können, wenn der Workshop-Plan nicht hier auf den pretalx-Seiten "
 "öffentlich ist."
 
 #: pretalx/orga/forms/event.py:582
@@ -4104,7 +4104,7 @@ msgstr "E-Mail-Vorlage"
 
 #: pretalx/orga/forms/schedule.py:36
 msgid "We released a new schedule version!"
-msgstr "Wir haben eine neue Programmversion veröffentlicht!"
+msgstr "Wir haben eine neue Workshop-Plan-Version veröffentlicht!"
 
 #: pretalx/orga/forms/schedule.py:45
 msgid "This schedule version was used already, please choose a different one."
@@ -4294,7 +4294,7 @@ msgstr ""
 
 #: pretalx/orga/phrases.py:13
 msgid "Schedule display format"
-msgstr "Programmformat"
+msgstr "Workshop-Planformat"
 
 #: pretalx/orga/phrases.py:15
 msgid "The unique ID of a proposal is used in the proposal URL and in exports"
@@ -4859,7 +4859,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Hide schedule"
 msgid "Hide field"
-msgstr "Programm verstecken"
+msgstr "Workshop-Plan verstecken"
 
 #: pretalx/orga/templates/orga/cfp/question_detail.html:44
 #: pretalx/orga/templates/orga/cfp/question_form.html:59
@@ -5222,7 +5222,7 @@ msgstr ""
 "Level werden genutzt, um Workshops in Kategorien zu sortieren. In den Einreichungs-"
 "Einstellungen kann festgelegt werden, ob die Teacher das Level beim "
 "Einreichen angeben können. Level-Farben helfen den Teilnehmern, sich im "
-"Programm besser zurechtzufinden."
+"Workshop-Plan besser zurechtzufinden."
 
 #: pretalx/orga/templates/orga/cfp/track_view.html:50
 #: pretalx/orga/templates/orga/submission/tag_list.html:24
@@ -5396,7 +5396,7 @@ msgstr "Ablehnungsemail"
 
 #: pretalx/orga/templates/orga/includes/mail_template_role.html:7
 msgid "Schedule update"
-msgstr "Programm-Update"
+msgstr "Workshop-Plan-Update"
 
 #: pretalx/orga/templates/orga/includes/pagination.html:17
 #, python-format
@@ -6122,7 +6122,7 @@ msgstr "Zur API"
 #: pretalx/orga/templates/orga/schedule/export.html:7
 #: pretalx/orga/templates/orga/schedule/export.html:10
 msgid "Export schedule data"
-msgstr "Programmdaten exportieren"
+msgstr "Workshop-Plan-Daten exportieren"
 
 #: pretalx/orga/templates/orga/schedule/export.html:47
 #: pretalx/orga/templates/orga/speaker/export.html:55
@@ -6142,7 +6142,7 @@ msgid ""
 "If you are looking for exports of proposals, sessions or schedule data, "
 "please head here:"
 msgstr ""
-"Wenn du nach einem Export für Einreichungen, Workshops oder Programmdaten "
+"Wenn du nach einem Export für Einreichungen, Workshops oder Workshop-Plan-Daten "
 "suchst, klick bitte hier:"
 
 #: pretalx/orga/templates/orga/schedule/export.html:56
@@ -6154,8 +6154,8 @@ msgid ""
 "You haven’t released a schedule yet – many of these data exporters only work "
 "on a released schedule."
 msgstr ""
-"Du hast noch kein Programm veröffentlicht – viele dieser Exporter "
-"funktionieren nur mit einem veröffentlichten Programm."
+"Du hast noch keinen Workshop-Plan veröffentlicht – viele dieser Exporter "
+"funktionieren nur mit einem veröffentlichten Workshop-Plan."
 
 #: pretalx/orga/templates/orga/schedule/export.html:86
 msgid "HTML Export"
@@ -6166,7 +6166,7 @@ msgid ""
 "The event schedule can be exported to a static HTML dump, so you can upload "
 "it to a normal file-serving web server like nginx."
 msgstr ""
-"Das Programm kann in eine statische HTML-Sammlung exportiert werden, die du "
+"Der Workshop-Plan kann in eine statische HTML-Sammlung exportiert werden, die du "
 "über einen Webserver (z.B. nginx) bereitstellen kannst."
 
 #: pretalx/orga/templates/orga/schedule/export.html:94
@@ -6193,11 +6193,11 @@ msgstr "API"
 
 #: pretalx/orga/templates/orga/schedule/index.html:31
 msgid "New release"
-msgstr "Neue Programmversion"
+msgstr "Neue Workshop-Plan-Version"
 
 #: pretalx/orga/templates/orga/schedule/index.html:35
 msgid "Override WIP schedule with this version"
-msgstr "Die aktuelle Arbeitsversion durch diese Programmversion übersetzen"
+msgstr "Die aktuelle Arbeitsversion durch diese Workshop-Plan-Version übersetzen"
 
 #: pretalx/orga/templates/orga/schedule/index.html:45
 msgid "View in frontend"
@@ -6205,11 +6205,11 @@ msgstr "Im Frontend ansehen"
 
 #: pretalx/orga/templates/orga/schedule/index.html:50
 msgid "Hide schedule"
-msgstr "Programm verstecken"
+msgstr "Workshop-Plan verstecken"
 
 #: pretalx/orga/templates/orga/schedule/index.html:54
 msgid "Make schedule public"
-msgstr "Programm veröffentlichen"
+msgstr "Workshop-Plan veröffentlichen"
 
 #: pretalx/orga/templates/orga/schedule/index.html:58
 msgid "Print cards"
@@ -6224,7 +6224,7 @@ msgid ""
 "You can start planning your schedule once you have configured some rooms for "
 "sessions to take place in."
 msgstr ""
-"Du kannst anfangen, das Programm zu erstellen, sobald du Räume erstellt hast."
+"Du kannst anfangen, den Workshop-Plan zu erstellen, sobald du Räume erstellt hast."
 
 #: pretalx/orga/templates/orga/schedule/index.html:71
 msgid "Configure rooms"
@@ -6233,12 +6233,12 @@ msgstr "Räume konfigurieren"
 #: pretalx/orga/templates/orga/schedule/quick.html:7
 #: pretalx/orga/templates/orga/schedule/quick.html:11
 msgid "Schedule session"
-msgstr "Programmpunkt festlegen"
+msgstr "Workshop festlegen"
 
 #: pretalx/orga/templates/orga/schedule/release.html:7
 #: pretalx/orga/templates/orga/schedule/release.html:14
 msgid "Release new schedule"
-msgstr "Programmversion veröffentlichen"
+msgstr "Workshop-Plan-Version veröffentlichen"
 
 #: pretalx/orga/templates/orga/schedule/release.html:22
 msgid ""
@@ -6252,11 +6252,11 @@ msgstr ""
 #, python-format
 msgid "The previous schedule (%(prev)s) was released %(since)s ago."
 msgstr ""
-"Die letzte Programmversion (%(prev)s) wurde vor %(since)s veröffentlicht."
+"Die letzte Workshop-Plan-Version (%(prev)s) wurde vor %(since)s veröffentlicht."
 
 #: pretalx/orga/templates/orga/schedule/release.html:36
 msgid "This will be the very first schedule release."
-msgstr "Das wird die erste Programmversion sein."
+msgstr "Das wird die erste Workshop-Plan-Version sein."
 
 #: pretalx/orga/templates/orga/schedule/release.html:41
 #, python-format
@@ -6269,24 +6269,24 @@ msgid_plural ""
 "strong> can be generated and placed in the outbox, to tell speakers about "
 "their session slots."
 msgstr[0] ""
-"Beim Veröffentlichen dieser Programmversion wird <strong>eine "
+"Beim Veröffentlichen dieser Workshop-Plan-Version wird <strong>eine "
 "Benachrichtigung</strong> generiert und in den Postausgang gelegt, in der "
-"die Teacher über ihre Programmpunkte informiert werden."
+"die Teacher über ihre Workshops informiert werden."
 msgstr[1] ""
-"Beim Veröffentlichen dieser Programmversion werden <strong>%(count)s "
+"Beim Veröffentlichen dieser Workshop-Plan-Version werden <strong>%(count)s "
 "Benachrichtigungen</strong> generiert und in den Postausgang gelegt, in "
-"denen die Teacher über ihre Programmpunkte informiert werden."
+"denen die Teacher über ihre Workshops informiert werden."
 
 #: pretalx/orga/templates/orga/schedule/release.html:51
 msgid "New schedule version"
-msgstr "Neue Programmversion"
+msgstr "Neue Workshop-Plan-Version"
 
 #: pretalx/orga/templates/orga/schedule/release.html:53
 msgid ""
 "This schedule release would result in <strong>no notification emails</"
 "strong> for speakers."
 msgstr ""
-"Diese Programmversion würde <strong>keine Benachrichtigungen</strong> für "
+"Diese Workshop-Plan-Version würde <strong>keine Benachrichtigungen</strong> für "
 "Teacher erstellen."
 
 #: pretalx/orga/templates/orga/schedule/release.html:60
@@ -6298,11 +6298,11 @@ msgid_plural ""
 "%(count)s sessions are still <strong>unconfirmed</strong> and will not show "
 "up on the public schedule."
 msgstr[0] ""
-"Ein Programmpunkt ist noch <strong>nicht bestätigt</strong> und wird nicht "
-"im öffentlichen Programm angezeigt werden."
+"Ein Workshop ist noch <strong>nicht bestätigt</strong> und wird nicht "
+"im öffentlichen Workshop-Plan angezeigt werden."
 msgstr[1] ""
-"%(count)s Programmpunkte sind noch <strong>nicht bestätigt</strong> und "
-"werden nicht im öffentlichen Programm angezeigt werden."
+"%(count)s Workshops sind noch <strong>nicht bestätigt</strong> und "
+"werden nicht im öffentlichen Workshop-Plan angezeigt werden."
 
 #: pretalx/orga/templates/orga/schedule/release.html:66
 msgid "See all unconfirmed sessions."
@@ -6312,17 +6312,17 @@ msgstr "Alle noch nicht bestätigten Workshops sehen."
 #, python-format
 msgid "One session has <strong>not yet been scheduled</strong>."
 msgid_plural "%(count)s sessions have <strong>not yet been scheduled</strong>."
-msgstr[0] "Ein Programmpunkt wurde <strong>noch nicht geplant</strong>."
+msgstr[0] "Ein Workshop wurde <strong>noch nicht geplant</strong>."
 msgstr[1] ""
-"%(count)s Programmpunkte wurden <strong>noch nicht geplant</strong>."
+"%(count)s Workshops wurden <strong>noch nicht geplant</strong>."
 
 #: pretalx/orga/templates/orga/schedule/release.html:76
 #, python-format
 msgid "One session has <strong>not yet been assigned a track</strong>."
 msgid_plural ""
 "%(count)s sessions have <strong>not yet been assigned a track</strong>."
-msgstr[0] "Ein Programmpunkt hat noch <strong>kein Level</strong>."
-msgstr[1] "%(count)s Programmpunkte haben noch <strong>kein Level</strong>."
+msgstr[0] "Ein Workshop hat noch <strong>kein Level</strong>."
+msgstr[1] "%(count)s Workshops haben noch <strong>kein Level</strong>."
 
 #: pretalx/orga/templates/orga/schedule/release.html:92
 msgid "Warnings"
@@ -6337,7 +6337,7 @@ msgid ""
 "This is how the new schedule version will appear in the public changelog and "
 "in the RSS feed."
 msgstr ""
-"So wird die neue Programmversion im öffentlichen Changelog und im RSS-Feed "
+"So wird die neue Workshop-Plan-Version im öffentlichen Changelog und im RSS-Feed "
 "erscheinen."
 
 #: pretalx/orga/templates/orga/schedule/release.html:111
@@ -6385,7 +6385,7 @@ msgstr "Design"
 #: pretalx/orga/templates/orga/settings/form.html:78
 #, fuzzy
 msgid "Schedule"
-msgstr "Programm"
+msgstr "Workshop-Plan"
 
 #: pretalx/orga/templates/orga/settings/form.html:87
 #, fuzzy
@@ -6407,7 +6407,7 @@ msgid ""
 "here."
 msgstr ""
 "Diese Links werden oben auf allen öffentlichen Programm-Seiten gezeigt, also "
-"z.B. über dem Programm, den Teacherprofilen, den Sessionseiten, etc. "
+"z.B. über dem Workshop-Plan, den Teacherprofilen, den Sessionseiten, etc. "
 "Hier könntest du beispielsweise die Veranstaltungshomepage, den Ticketshop "
 "oder den Livestream verlinken."
 
@@ -6558,9 +6558,9 @@ msgid ""
 "your homepage, instead of using this page. If you want to disable the "
 "schedule on here entirely, please activate the setting below."
 msgstr ""
-"Du kannst ein Widget erstellen, um den Programmplan auf der "
+"Du kannst ein Widget erstellen, um den Workshop-Plan auf der "
 "Veranstaltungswebsite anzuzeigen, statt hier mit pretalx. Wenn du den "
-"Programmplan auf diesen Seiten komplett abschalten willst, nutze bitte die "
+"Workshop-Plan auf diesen Seiten komplett abschalten willst, nutze bitte die "
 "Einstellung unten."
 
 #: pretalx/orga/templates/orga/settings/widget.html:44
@@ -6569,8 +6569,8 @@ msgid ""
 "website. This way, your attendees can see your schedule without leaving your "
 "website, and you can style the schedule to fit right in with your website."
 msgstr ""
-"Das pretalx-Widget erlaubt es, den Programmplan in die Veranstaltungsseite "
-"zu integrieren. Auf diesem Weg können Teilnehmende das Programm sehen, ohne "
+"Das pretalx-Widget erlaubt es, den Workshop-Plan in die Veranstaltungsseite "
+"zu integrieren. Auf diesem Weg können Teilnehmende den Workshop-Plan sehen, ohne "
 "die Veranstaltungsseite zu verlassen, und es kann mithilfe von CSS so "
 "angepasst werden, dass es sich in die Seite gut einfügt."
 
@@ -6599,8 +6599,8 @@ msgid ""
 "Then, copy the following code to the place of your website where you want "
 "the widget to show up:"
 msgstr ""
-"Dann kopiere den folgenden Code an die Stelle auf der Website, an der das "
-"Programm erscheinen soll:"
+"Dann kopiere den folgenden Code an die Stelle auf der Website, an der der "
+"Workshop-Plan erscheinen soll:"
 
 #: pretalx/orga/templates/orga/settings/widget.html:90
 #, python-format
@@ -7556,28 +7556,28 @@ msgstr "Du musst eine neue, noch nicht verwendete Version eingeben."
 
 #: pretalx/orga/views/schedule.py:190
 msgid "Nice, your schedule has been released!"
-msgstr "Ui, das Programm wurde veröffentlicht!"
+msgstr "Ui, der Workshop-Plan wurde veröffentlicht!"
 
 #: pretalx/orga/views/schedule.py:206
 msgid ""
 "Reset successful – start editing the schedule from your selected version!"
 msgstr ""
-"Das Zurücksetzen war erfolgreich – du kannst das Programm jetzt von dieser "
+"Das Zurücksetzen war erfolgreich – du kannst den Workshop-Plan jetzt von dieser "
 "Version aus editieren."
 
 #: pretalx/orga/views/schedule.py:211
 msgid "Error retrieving the schedule version to reset to."
-msgstr "Die Programmversion konnte nicht gefunden werden."
+msgstr "Die Workshop-Plan-Version konnte nicht gefunden werden."
 
 #: pretalx/orga/views/schedule.py:245
 msgid "You can only regenerate mails after the first schedule was released."
 msgstr ""
-"E-Mails können erst neu erstellt werden, nachdem die erste Programmversion "
+"E-Mails können erst neu erstellt werden, nachdem die erste Workshop-Plan-Version "
 "fertiggestellt wurde."
 
 #: pretalx/orga/views/schedule.py:524
 msgid "The session has been scheduled."
-msgstr "Der Beitrag wurde ins Programm gesetzt."
+msgstr "Der Beitrag wurde in den Workshop-Plan gesetzt."
 
 #: pretalx/orga/views/schedule.py:557
 msgid "Room deleted. Hopefully nobody was still in there …"
@@ -7978,7 +7978,7 @@ msgstr "Version"
 #: pretalx/schedule/models/schedule.py:44
 msgid "This text will be shown in the public changelog and the RSS feed."
 msgstr ""
-"So wird die neue Programmversion im öffentlichen Changelog und im RSS-Feed "
+"So wird die neue Workshop-Plan-Version im öffentlichen Changelog und im RSS-Feed "
 "erscheinen."
 
 #: pretalx/schedule/models/schedule.py:373
@@ -7989,7 +7989,7 @@ msgstr "Der Raum {room_name} steht zur gewählten Zeit nicht zur Verfügung."
 #: pretalx/schedule/models/schedule.py:397
 msgid "Another session in the same room overlaps with this one."
 msgstr ""
-"Ein anderer Programmpunkt überschneidet sich mit diesem im selben Raum."
+"Ein anderer Workshop überschneidet sich mit diesem im selben Raum."
 
 #: pretalx/schedule/models/schedule.py:429
 #, python-brace-format
@@ -8000,12 +8000,12 @@ msgstr "{speaker} steht zum gewählten Zeitpunkt nicht zur Verfügung."
 #, python-brace-format
 msgid "{speaker} is scheduled for another session at the same time."
 msgstr ""
-"{speaker} ist zu diesem Zeitpunkt schon für einen anderen Programmpunkt "
+"{speaker} ist zu diesem Zeitpunkt schon für einen anderen Workshop "
 "verplant."
 
 #: pretalx/schedule/models/slot.py:45
 msgid "The room this talk is scheduled in, if any"
-msgstr "Der Raum, in dem dieser Programmpunkt stattfindet, wenn es einen gibt"
+msgstr "Der Raum, in dem dieser Workshop stattfindet, wenn es einen gibt"
 
 #: pretalx/schedule/models/slot.py:55
 msgid "Start"
@@ -8036,14 +8036,14 @@ msgstr "Workshops"
 
 #: pretalx/schedule/phrases.py:20
 msgid "We released our first schedule!"
-msgstr "Wir haben unsere erste Programmversion rausgebracht!"
+msgstr "Wir haben unsere erste Workshop-Plan-Version rausgebracht!"
 
 #: pretalx/schedule/phrases.py:22
 msgid ""
 "You are currently viewing the editable schedule version, which is unreleased "
 "and may change at any time."
 msgstr ""
-"Das ist eine unveröffentlichte Programmversion. Sie kann sich noch jederzeit "
+"Das ist eine unveröffentlichte Workshop-Plan-Version. Sie kann sich noch jederzeit "
 "ändern."
 
 #: pretalx/schedule/phrases.py:24
@@ -8673,7 +8673,7 @@ msgstr "Die Dauer in Minuten."
 
 #: pretalx/submission/models/submission.py:211
 msgid "How many times this session will take place."
-msgstr "Wie oft der Programmpunkt abgehalten wird."
+msgstr "Wie oft der Workshop abgehalten wird."
 
 #: pretalx/submission/models/submission.py:221
 msgid "Show this session in public list of featured sessions."
@@ -8977,7 +8977,7 @@ msgstr "abgelehnt"
 #~ msgstr "Wenn möglich, wähle ein Bild, das mindestens 120 Pixel breit ist."
 
 #~ msgid "Filter sessions"
-#~ msgstr "Programm filtern"
+#~ msgstr "Workshops filtern"
 
 #~ msgid "New break"
 #~ msgstr "Neue Pause"
@@ -9160,7 +9160,7 @@ msgstr "abgelehnt"
 #~ "sessions specified in the XML file. The format is expected to be the same "
 #~ "as the XML export provided."
 #~ msgstr ""
-#~ "Lad hier eine XML-Datei hoch, um eine neue Programm-Version zu "
+#~ "Lad hier eine XML-Datei hoch, um eine neue Workshop-Plan-Version zu "
 #~ "veröffentlichen, die genau die Talks enthält, die in der XML-Datei "
 #~ "aufgeführt werden. Das Format muss dem XML-Export-Format entsprechen."
 
@@ -9350,7 +9350,7 @@ msgstr "abgelehnt"
 #~ msgstr "Ihr habt noch keine Einreichungen."
 
 #~ msgid "Scheduling"
-#~ msgstr "Programm"
+#~ msgstr "Workshop-Plan"
 
 #~ msgid "Search for events"
 #~ msgstr "Suche Veranstaltungen"
@@ -9511,7 +9511,7 @@ msgstr "abgelehnt"
 #~ "This is the order that rooms are displayed in in the schedule (lower = "
 #~ "left)."
 #~ msgstr ""
-#~ "Die Reihenfolge, in der Räume im Programm erscheinen (niedriger = links)."
+#~ "Die Reihenfolge, in der Räume im Workshop-Plan erscheinen (niedriger = links)."
 
 #~ msgid "position"
 #~ msgstr "Position"
@@ -9619,12 +9619,12 @@ msgstr "abgelehnt"
 #~ "You’re currently viewing a released schedule version. Released versions "
 #~ "cannot be edited directly."
 #~ msgstr ""
-#~ "Das ist eine veröffentlichte Programmversion. Sie kann nicht mehr direkt "
+#~ "Das ist eine veröffentlichte Workshop-Plan-Version. Sie kann nicht mehr direkt "
 #~ "editiert werden."
 
 #~ msgid "There’s an overlapping session scheduled in this room."
 #~ msgstr ""
-#~ "Es findet gleichzeitig schon ein anderer Programmpunkt in diesem Raum "
+#~ "Es findet gleichzeitig schon ein anderer Workshop in diesem Raum "
 #~ "statt."
 
 #~ msgid "Use Gravatar"
@@ -9710,7 +9710,7 @@ msgstr "abgelehnt"
 #~ msgstr "Plugin auswählen"
 
 #~ msgid "To see our schedule in grid from, please enable JavaScript."
-#~ msgstr "Um das Programm als Tabelle zu sehen, schalte bitte JavaScript an."
+#~ msgstr "Um den Workshop-Plan als Tabelle zu sehen, schalte bitte JavaScript an."
 
 #~ msgid ""
 #~ "If you provide a logo image, we will by default not show your event’s "
@@ -9925,7 +9925,7 @@ msgstr "abgelehnt"
 #~ msgstr ""
 #~ "Die proportionale Darstellung des Programms zeigt jeden Eintrag so an, "
 #~ "dass sichtbar ist, wann er anfängt und endet. Die Darstellung als Liste "
-#~ "zeigt alle Programmpunkte untereinander, selbst wenn sie in verschiedenen "
+#~ "zeigt alle Workshops untereinander, selbst wenn sie in verschiedenen "
 #~ "Räumen stattfinden. Das Programm-Widget nutzt immer den proportionalen "
 #~ "Modus."
 
@@ -9971,7 +9971,7 @@ msgstr "abgelehnt"
 #~ "Our schedule is not live yet, but we have this list of featured talks "
 #~ "available!"
 #~ msgstr ""
-#~ "Unser Programm ist noch nicht fertig, aber wir haben bis dahin diese "
+#~ "Unser Workshop-Plan ist noch nicht fertig, aber wir haben bis dahin diese "
 #~ "Sammlung von Highlights zusammengestellt!"
 
 #~ msgid ""
@@ -10244,12 +10244,12 @@ msgstr "abgelehnt"
 #~ msgstr "Super!"
 
 #~ msgid "Your schedule is currently only visible to orga members."
-#~ msgstr "Das Programm ist derzeit nur für Orga-Mitglieder einsehbar."
+#~ msgstr "Der Workshop-Plan ist derzeit nur für Orga-Mitglieder einsehbar."
 
 #~ msgid ""
 #~ "Once you release your schedule, it will be only visible to orga members."
 #~ msgstr ""
-#~ "Wenn du eine Programmversion erstellst, wird sie nur für Orga-Mitglieder "
+#~ "Wenn du eine Workshop-Plan-Version erstellst, wird sie nur für Orga-Mitglieder "
 #~ "einsehbar sein."
 
 #~ msgid "Copy token"
@@ -10286,7 +10286,7 @@ msgstr "abgelehnt"
 #~ msgstr ""
 #~ "Hi!\n"
 #~ "\n"
-#~ "Wir haben eine neue Programmversion, und dein Workshop wurde verlegt:\n"
+#~ "Wir haben eine neue Workshop-Plan-Version, und dein Workshop wurde verlegt:\n"
 #~ "Von {old_datetime} ({old_room}) nach {new_datetime} ({new_room}).\n"
 #~ "\n"
 #~ "Wenn das ein Problem ist, melde dich einfach!\n"
@@ -10348,7 +10348,7 @@ msgstr "abgelehnt"
 
 #~ msgid "We have released a new schedule, and wanted to tell you:"
 #~ msgstr ""
-#~ "Wir haben eine neue Programmversion veröffentlicht und wollten dir sagen:"
+#~ "Wir haben eine neue Workshop-Plan-Version veröffentlicht und wollten dir sagen:"
 
 #~ msgid "Optional. Will be displayed publicly."
 #~ msgstr "Optional. Wird öffentlich gezeigt."
