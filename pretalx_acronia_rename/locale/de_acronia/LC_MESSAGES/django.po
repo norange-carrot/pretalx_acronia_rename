@@ -240,8 +240,8 @@ msgstr "Das pretalx-Logo"
 msgid ""
 "Your draft was saved. You can continue to edit it as long as the CfP is open."
 msgstr ""
-"Dein Entwurf wurde gespeichert. Du kannst ihn noch ändern, solange der CfP "
-"offen ist."
+"Dein Entwurf wurde gespeichert. Du kannst ihn für die Dauer des "
+"Einreichungszeitraums noch ändern."
 
 #: pretalx/cfp/flow.py:356
 msgid ""
@@ -325,7 +325,7 @@ msgstr ""
 
 #: pretalx/cfp/phrases.py:7
 msgid "Go to CfP"
-msgstr "Zum CfP"
+msgstr "Zu den Einreichungen"
 
 #: pretalx/cfp/phrases.py:10
 msgid ""
@@ -1169,7 +1169,7 @@ msgstr "Der Veranstalter {name} wurde gelöscht."
 
 #: pretalx/common/log_display.py:51
 msgid "The CfP has been modified."
-msgstr "Der CfP wurde geändert."
+msgstr "Der Einreichungsaufruf wurde geändert."
 
 #: pretalx/common/log_display.py:52
 msgid "The event has been added."
@@ -1469,7 +1469,7 @@ msgstr ""
 #: pretalx/orga/templates/orga/cfp/text.html:20
 #: pretalx/orga/templates/orga/cfp/text.html:24
 msgid "Call for Proposals"
-msgstr "CfP"
+msgstr "Einreichungen"
 
 #: pretalx/common/log_display.py:183
 msgid "Mail template"
@@ -1512,7 +1512,7 @@ msgid ""
 msgstr ""
 "Hi,\n"
 "\n"
-"wir hoffen, dass dich pretalx als CfP- und Programmsystem zufriedenstellt.\n"
+"wir hoffen, dass dich pretalx als Einreichungs- und Programmsystem zufriedenstellt.\n"
 "Diese Links werden dir in den nächsten Wochen hoffentlich nützen::\n"
 "\n"
 "- Dein Veranstaltungsdashboard: {event_dashboard}\n"
@@ -1542,7 +1542,7 @@ msgid ""
 msgstr ""
 "Hi,\n"
 "\n"
-"der CfP für eure Veranstaltung ist nun geschlossen. Hier sind ein paar "
+"der Einreichungszeitraum für eure Veranstaltung ist nun geschlossen. Hier sind ein paar "
 "Links, die\n"
 "in den nächsten Tagen nützlich sein sollten:\n"
 "\n"
@@ -2185,7 +2185,7 @@ msgid ""
 "deadlines to individual session types, which will take precedence over this "
 "deadline."
 msgstr ""
-"Die Standard-Einreichungsfrist des CfP. Du kannst einzelnen "
+"Die Standard-Einreichungsfrist. Du kannst einzelnen "
 "Einreichungstypen abweichende Einreichungsfristen zuweisen, die dann Vorrang "
 "haben."
 
@@ -2335,7 +2335,7 @@ msgid ""
 "This text will be shown on the landing page, alongside with links to the CfP "
 "and schedule, if appropriate."
 msgstr ""
-"Dieser Text wird auf der Startseite gezeigt, zusammen mit Links zum CfP und "
+"Dieser Text wird auf der Startseite gezeigt, zusammen mit Links zu den Einreichungen und "
 "zum Fahrplan (sofern verfügbar)."
 
 #: pretalx/event/models/event.py:266
@@ -2588,7 +2588,7 @@ msgstr "Lad das restliche Team ein"
 
 #: pretalx/event/stages.py:49
 msgid "Write a CfP"
-msgstr "Schreib einen CfP"
+msgstr "Schreib einen Einreichungsaufruf"
 
 #: pretalx/event/stages.py:51
 msgid "Customize mail templates"
@@ -2596,7 +2596,7 @@ msgstr "Pass die E-Mail-Vorlagen an"
 
 #: pretalx/event/stages.py:57
 msgid "CfP is open"
-msgstr "CfP läuft"
+msgstr "Einreichungen laufen"
 
 #: pretalx/event/stages.py:61
 msgid "Monitor proposals"
@@ -2682,7 +2682,7 @@ msgstr "Die Programm-URL der Veranstaltung"
 
 #: pretalx/mail/context.py:112
 msgid "The event’s public CfP URL"
-msgstr "Die CfP-URL der Veranstaltung"
+msgstr "Die Einreichungs-URL der Veranstaltung"
 
 #: pretalx/mail/context.py:119
 msgid "URL to a user’s list of proposals"
@@ -3058,7 +3058,7 @@ msgid ""
 msgstr ""
 "Hi!\n"
 "\n"
-"Du wurdest als Teacher einer Einreichung zum CfP von {event} "
+"Du wurdest als Teacher einer Einreichung von {event} "
 "genannt,\n"
 "unter dem Titel „{title}“. Es wurde ein Account für dich erstellt – bitte "
 "folge diesem\n"
@@ -3101,7 +3101,7 @@ msgid ""
 msgstr ""
 "Hi!\n"
 "\n"
-"Du wurdest als Teacher einer Einreichung zum CfP von {event} "
+"Du wurdest als Teacher einer Einreichung von {event} "
 "genannt,\n"
 "unter dem Titel „{title}“. Es wurde ein Account für dich erstellt – bitte "
 "folge diesem\n"
@@ -3300,7 +3300,7 @@ msgstr "Einreichungsschluss öffentlich anzeigen"
 
 #: pretalx/orga/forms/cfp.py:150
 msgid "Show the time and date the CfP ends to potential speakers."
-msgstr "Datum und Uhrzeit des CfP-Endes öffentlich anzeigen."
+msgstr "Datum und Uhrzeit des Einreichungs-Endes öffentlich anzeigen."
 
 #: pretalx/orga/forms/cfp.py:153
 msgid "Count text length in"
@@ -3399,7 +3399,7 @@ msgstr "Ihr habt schon einen Track dieses Namens!"
 #: pretalx/orga/forms/cfp.py:448
 #, python-brace-format
 msgid "Access code for the {event} CfP"
-msgstr "Zugangscode für den „{event}“-CfP"
+msgstr "Zugangscode für „{event}“-Einreichungen (CfP)"
 
 #: pretalx/orga/forms/cfp.py:452
 #, python-brace-format
@@ -3410,7 +3410,7 @@ msgid ""
 msgstr ""
 "H!\n"
 "\n"
-"Das ist ein Zugangscode für den „{event}“-CfP."
+"Das ist ein Zugangscode für „{event}“-Einreichungen (CfP)."
 
 #: pretalx/orga/forms/cfp.py:463
 #, python-brace-format
@@ -3419,7 +3419,7 @@ msgstr "Er erlaubt Dir, eine Einreichung zum „{track}“-Track einzureichen."
 
 #: pretalx/orga/forms/cfp.py:469
 msgid "It will allow you to submit a proposal to our CfP."
-msgstr "Er erlaubt es Dir, an unserem CfP teilzunehmen."
+msgstr "Er erlaubt es Dir, an unseren Einreichungen teilzunehmen."
 
 #: pretalx/orga/forms/cfp.py:473
 #, python-brace-format
@@ -4827,7 +4827,7 @@ msgstr "Zugangscode per Mail verschicken"
 #: pretalx/orga/templates/orga/cfp/flow.html:28
 #: pretalx/orga/templates/orga/cfp/flow.html:31
 msgid "CfP Editor"
-msgstr "CfP-Editor"
+msgstr "Einreichungs-Editor"
 
 #: pretalx/orga/templates/orga/cfp/flow.html:33
 msgid ""
@@ -4836,8 +4836,8 @@ msgid ""
 "custom help text to individual fields. Just click on the item you want to "
 "change!"
 msgstr ""
-"Dies ist der pretalx-CfP-Editor. Diese Seite erlaubt es dir, die Überschrift "
-"und den Text aller einzelnen CfP-Schritte zu speichern. Du kannst auch einen "
+"Dies ist der pretalx-Einreichungs-Editor. Diese Seite erlaubt es dir, die Überschrift "
+"und den Text aller einzelnen Einreichungs-Schritte zu speichern. Du kannst auch einen "
 "eigenen Hilfstext für einzelne Eingabefelder angeben. Klick einfach auf die "
 "Elemente, die du ändern willst, um loszulegen!"
 
@@ -5090,14 +5090,14 @@ msgstr "Standard"
 #: pretalx/orga/templates/orga/cfp/submission_type_view.html:74
 #: pretalx/orga/templates/orga/cfp/track_view.html:75
 msgid "Go to pre-filled CfP form"
-msgstr "Zu vorausgefülltem CfP-Formular gehen"
+msgstr "Zu vorausgefülltem Einreichungs-Formular gehen"
 
 #: pretalx/orga/templates/orga/cfp/text.html:32
 msgid ""
 "A good Call for Participation will engage potential speakers. Remember to "
 "include:"
 msgstr ""
-"Ein guter CfP motiviert potenzielle Einreichende und spricht sie an. Bemühe "
+"Ein guter Einreichungsaufruf motiviert potenzielle Einreichende und spricht sie an. Bemühe "
 "dich, den Großteil der folgenden Punkte abzudecken:"
 
 #: pretalx/orga/templates/orga/cfp/text.html:35
@@ -5219,7 +5219,7 @@ msgid ""
 "themselves. Track colors are helpful to help attendees navigate your "
 "schedule."
 msgstr ""
-"Tracks werden genutzt, um Workshops in Kategorien zu sortieren. In den CfP-"
+"Tracks werden genutzt, um Workshops in Kategorien zu sortieren. In den Einreichungs-"
 "Einstellungen kann festgelegt werden, ob die Teacher den Track beim "
 "Einreichen angeben können. Track-Farben helfen den Teilnehmern, sich im "
 "Programm besser zurechtzufinden."
@@ -7112,7 +7112,7 @@ msgstr ""
 
 #: pretalx/orga/views/dashboard.py:148
 msgid "until the CfP ends"
-msgstr "bis zum CfP-Ende"
+msgstr "bis zum Einreichungs-Ende"
 
 #: pretalx/orga/views/dashboard.py:160
 msgid "unsubmitted proposal draft"
@@ -7189,7 +7189,7 @@ msgstr "Texte"
 
 #: pretalx/orga/views/event.py:156
 msgid "The CfP doesn’t have a full text yet."
-msgstr "Der CfP hat noch keinen vollständigen Text."
+msgstr "Der Einreichungsaufruf hat noch keinen vollständigen Text."
 
 #: pretalx/orga/views/event.py:166
 msgid "The event doesn’t have a landing page text yet."
@@ -8455,8 +8455,8 @@ msgstr "Minimallänge"
 #: pretalx/submission/models/question.py:199
 msgid "Minimum allowed text in characters or words (set in CfP settings)."
 msgstr ""
-"Minimale Länge des Texts in Zeichen oder Wörtern (wie in den CfP-"
-"Einstellungen festgelegt)."
+"Minimale Länge des Texts in Zeichen oder Wörtern (wie in den Einreichungs-"
+"einstellungen festgelegt)."
 
 #: pretalx/submission/models/question.py:205
 msgid "Maximum text length"
@@ -8466,8 +8466,8 @@ msgstr "Maximallänge"
 msgid ""
 "Maximum allowed text length in characters or words (set in CfP settings)."
 msgstr ""
-"Maximale Länge des Texts in Zeichen oder Wörtern (wie in den CfP-"
-"Einstellungen festgelegt)."
+"Maximale Länge des Texts in Zeichen oder Wörtern (wie in den Einreichungs-"
+"einstellungen festgelegt)."
 
 #: pretalx/submission/models/question.py:215
 #: pretalx/submission/models/question.py:227
@@ -8622,7 +8622,7 @@ msgid ""
 "re-enabled once the proposal was accepted."
 msgstr ""
 "Normalerweise wird die Bearbeitung von Einreichungen gesperrt, sobald der "
-"CfP beendet ist, und erst wieder freigegeben, wenn eine Einreichung "
+"Einreichungszeitraum beendet ist, und erst wieder freigegeben, wenn eine Einreichung "
 "angenommen wurde."
 
 #: pretalx/submission/models/submission.py:49 pretalx/submission/phrases.py:13
@@ -9068,7 +9068,7 @@ msgstr "abgelehnt"
 #~ msgstr "Text und Einsendeschluss"
 
 #~ msgid "CfP open"
-#~ msgstr "CfP läuft"
+#~ msgstr "Einreichungen laufen"
 
 #~ msgid "Sort by subject (a-z)"
 #~ msgstr "Nach Betreff sortieren (a-z)"
@@ -9281,7 +9281,7 @@ msgstr "abgelehnt"
 #~ msgstr "Dein Entwurf:"
 
 #~ msgid "CfP"
-#~ msgstr "CfP"
+#~ msgstr "Einreichungen"
 
 #~ msgid "Access denied."
 #~ msgstr "Kein Zugriff möglich."
@@ -9421,7 +9421,7 @@ msgstr "abgelehnt"
 
 #, fuzzy
 #~ msgid "The page has been modified."
-#~ msgstr "Der CfP wurde geändert."
+#~ msgstr "Der Einreichungszeitraum wurde geändert."
 
 #, fuzzy
 #~ msgid "Delete a page"
