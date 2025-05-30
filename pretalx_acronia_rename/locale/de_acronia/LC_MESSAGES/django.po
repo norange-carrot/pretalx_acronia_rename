@@ -51,7 +51,7 @@ msgstr ""
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:14
 msgid "We have new sessions!"
-msgstr "Wir haben neue Vorträge!"
+msgstr "Wir haben neue Workshops!"
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:24
 msgid "We have a new session: "
@@ -59,7 +59,7 @@ msgstr "Wir haben einen neuen Beitrag: "
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:34
 msgid "Sadly, we had to cancel sessions:"
-msgstr "Leider müssen wir Vorträge absagen:"
+msgstr "Leider müssen wir Workshops absagen:"
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:42
 msgid "We sadly had to cancel a session: "
@@ -70,7 +70,7 @@ msgid ""
 "We had to move some sessions, so if you were planning on seeing them, check "
 "their new dates or locations:"
 msgstr ""
-"Wir mussten einige Vorträge verlegen – guckt euch hier die neuen Zeiten/Orte "
+"Wir mussten einige Workshops verlegen – guckt euch hier die neuen Zeiten/Orte "
 "an, wenn ihr sie ansehen wolltet:"
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:69
@@ -168,7 +168,7 @@ msgstr ""
 #: pretalx/agenda/templates/agenda/schedule_nojs.html:77
 #, python-format
 msgid "No sessions on %(weekday)s, %(current_day)s."
-msgstr "Keine Vorträge an %(weekday)s, %(current_day)s."
+msgstr "Keine Workshops an %(weekday)s, %(current_day)s."
 
 #: pretalx/agenda/templates/agenda/session_block.html:12
 #, python-format
@@ -701,7 +701,7 @@ msgid ""
 "sessions, and overriding my public and private data."
 msgstr ""
 "Ich möchte wirklich meinen Account löschen, Zugriff auf meine Einreichungen "
-"und Vorträge verlieren, und meine öffentlichen und privaten Daten "
+"und Workshops verlieren, und meine öffentlichen und privaten Daten "
 "überschreiben."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:106
@@ -1582,7 +1582,7 @@ msgstr ""
 "ein paar Fakten, die dich vielleicht interessieren:\n"
 "\n"
 "- Es gab {submission_count} Einreichungen,\n"
-"- von denen {talk_count} Vorträge ausgewählt wurden.\n"
+"- von denen {talk_count} Workshops ausgewählt wurden.\n"
 "- Die Reviewer haben {review_count} Reviews verfasst.\n"
 "- Es wurden {schedule_count} Programmversionen veröffentlicht.\n"
 "- Über dieses Event wurden {mail_count} Mails verschickt.\n"
@@ -2413,7 +2413,7 @@ msgstr "Ja"
 
 #: pretalx/event/models/event.py:1020
 msgid "News from your content system"
-msgstr "Nachricht von deinem Vortrags-System"
+msgstr "Nachricht von deinem Workshops-System"
 
 #: pretalx/event/models/event.py:1097
 #, fuzzy
@@ -2714,7 +2714,7 @@ msgstr "Link zum Zurückziehen der Einreichung"
 
 #: pretalx/mail/context.py:175
 msgid "This Is a Proposal Title"
-msgstr "Das ist ein Vortragstitel"
+msgstr "Das ist ein Workshopstitel"
 
 #: pretalx/mail/context.py:176
 msgid "The proposal’s title"
@@ -2947,7 +2947,7 @@ msgstr ""
 "{speaker_schedule_new}\n"
 "\n"
 "Wir freuen uns schon darauf, Dich zu sehen. Bitte melde Dich jederzeit bei "
-"uns, wenn es ein Problem mit Deinem Beitrag oder Deinem Vortragstermin "
+"uns, wenn es ein Problem mit Deinem Beitrag oder Deinem Workshopstermin "
 "gibt.\n"
 "\n"
 "Die {event_name} Veranstalter"
@@ -3250,7 +3250,7 @@ msgstr "Tracks verwenden"
 
 #: pretalx/orga/forms/cfp.py:41
 msgid "Do you organise your sessions by tracks?"
-msgstr "Werden die Vorträge dieser Veranstaltung in Tracks sortiert?"
+msgstr "Werden die Workshops dieser Veranstaltung in Tracks sortiert?"
 
 #: pretalx/orga/forms/cfp.py:44 pretalx/submission/models/submission.py:210
 msgid "Slot Count"
@@ -3258,7 +3258,7 @@ msgstr "Anzahl"
 
 #: pretalx/orga/forms/cfp.py:46
 msgid "Can sessions be held multiple times?"
-msgstr "Können Vorträge mehrfach gehalten werden?"
+msgstr "Können Workshops mehrfach gehalten werden?"
 
 #: pretalx/orga/forms/cfp.py:49
 msgid "Send mail on new proposal"
@@ -3499,7 +3499,7 @@ msgstr "Einreichungssprachen"
 
 #: pretalx/orga/forms/event.py:72
 msgid "Users will be able to submit proposals in these languages."
-msgstr "Teacher können diese Sprachen für ihren Vortrag auswählen."
+msgstr "Teacher können diese Sprachen für ihren Workshop auswählen."
 
 #: pretalx/orga/forms/event.py:78
 msgid "You can type in your CSS instead of uploading it, too."
@@ -3619,7 +3619,7 @@ msgid ""
 "event dates. You will have to release a new schedule version to notify all "
 "speakers."
 msgstr ""
-"Alle Vorträge, die schon Teil des Programms sind, werden verschoben, wenn "
+"Alle Workshops, die schon Teil des Programms sind, werden verschoben, wenn "
 "das Veranstaltungsdatum sich ändert. Um die Teacher zu benachrichtigen, "
 "müsst ihr eine neue Programmversion veröffentlichen."
 
@@ -5066,7 +5066,7 @@ msgid ""
 "(talk vs workshop vs metal concert)."
 msgstr ""
 "Unterschiedliche Einreichungsarten können Einreichungen in verschiedene "
-"Längen oder Präsentationsformate (Vorträge vs Workshops vs Konzerte vs …) "
+"Längen oder Präsentationsformate (Workshops vs Konzerte vs …) "
 "sortieren."
 
 #: pretalx/orga/templates/orga/cfp/submission_type_view.html:41
@@ -5102,7 +5102,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/cfp/text.html:35
 msgid "The formats (sessions, workshops, panels) and their durations"
-msgstr "Die Einreichungsarten (Vorträge, Workshops, Panels, …) und ihre Dauer"
+msgstr "Die Einreichungsarten (Workshops, Panels, …) und ihre Dauer"
 
 #: pretalx/orga/templates/orga/cfp/text.html:36
 msgid "Topics you are looking for"
@@ -5219,7 +5219,7 @@ msgid ""
 "themselves. Track colors are helpful to help attendees navigate your "
 "schedule."
 msgstr ""
-"Tracks werden genutzt, um Vorträge in Kategorien zu sortieren. In den CfP-"
+"Tracks werden genutzt, um Workshops in Kategorien zu sortieren. In den CfP-"
 "Einstellungen kann festgelegt werden, ob die Teacher den Track beim "
 "Einreichen angeben können. Track-Farben helfen den Teilnehmern, sich im "
 "Programm besser zurechtzufinden."
@@ -5545,7 +5545,7 @@ msgstr "E-Mails verschicken"
 #: pretalx/orga/templates/orga/mails/compose_choice.html:12
 #: pretalx/orga/templates/orga/mails/compose_session_mail_form.html:6
 msgid "Sessions, proposals, speakers"
-msgstr "Vorträge, Einreichungen, Teacher"
+msgstr "Workshops, Einreichungen, Teacher"
 
 #: pretalx/orga/templates/orga/mails/compose_choice.html:15
 msgid ""
@@ -6142,7 +6142,7 @@ msgid ""
 "If you are looking for exports of proposals, sessions or schedule data, "
 "please head here:"
 msgstr ""
-"Wenn du nach einem Export für Einreichungen, Vorträge oder Programmdaten "
+"Wenn du nach einem Export für Einreichungen, Workshops oder Programmdaten "
 "suchst, klick bitte hier:"
 
 #: pretalx/orga/templates/orga/schedule/export.html:56
@@ -6306,7 +6306,7 @@ msgstr[1] ""
 
 #: pretalx/orga/templates/orga/schedule/release.html:66
 msgid "See all unconfirmed sessions."
-msgstr "Alle noch nicht bestätigten Vorträge sehen."
+msgstr "Alle noch nicht bestätigten Workshops sehen."
 
 #: pretalx/orga/templates/orga/schedule/release.html:69
 #, python-format
@@ -6376,7 +6376,7 @@ msgstr "Kapazität"
 #: pretalx/orga/templates/orga/schedule/room_list.html:65
 msgid "Please add at least one place in which sessions can take place."
 msgstr ""
-"Bitte füge mindestens einen Raum hinzu, in dem Vorträge stattfinden können."
+"Bitte füge mindestens einen Raum hinzu, in dem Workshops stattfinden können."
 
 #: pretalx/orga/templates/orga/settings/form.html:60
 msgid "Design"
@@ -6828,7 +6828,7 @@ msgstr[1] "Sessions"
 
 #: pretalx/orga/templates/orga/submission/list.html:51
 msgid "Add new session or proposal"
-msgstr "Vortrag oder Einreichung hinzufügen"
+msgstr "Workshop oder Einreichung hinzufügen"
 
 #: pretalx/orga/templates/orga/submission/list.html:92
 msgid "Featured"
@@ -6930,7 +6930,7 @@ msgstr "Einreichungen nach Einreichungsdatum"
 
 #: pretalx/orga/templates/orga/submission/stats.html:36
 msgid "Sessions by submission date"
-msgstr "Vorträge nach Einreichungsdatum"
+msgstr "Workshops nach Einreichungsdatum"
 
 #: pretalx/orga/templates/orga/submission/stats.html:39
 msgid "Total proposals"
@@ -6942,7 +6942,7 @@ msgstr "Einreichungen nach Einreichungstyp"
 
 #: pretalx/orga/templates/orga/submission/stats.html:47
 msgid "Sessions by session type"
-msgstr "Vorträge nach Einreichungstyp"
+msgstr "Workshops nach Einreichungstyp"
 
 #: pretalx/orga/templates/orga/submission/stats.html:57
 msgid "Proposals by track"
@@ -6950,7 +6950,7 @@ msgstr "Einreichungen nach Track"
 
 #: pretalx/orga/templates/orga/submission/stats.html:58
 msgid "Sessions by track"
-msgstr "Vorträge nach Track"
+msgstr "Workshops nach Track"
 
 #: pretalx/orga/templates/orga/submission/stats.html:68
 msgid "Proposals by state"
@@ -6958,7 +6958,7 @@ msgstr "Einreichungen nach Status"
 
 #: pretalx/orga/templates/orga/submission/stats.html:69
 msgid "Sessions by state"
-msgstr "Vorträge nach Status"
+msgstr "Workshops nach Status"
 
 #: pretalx/orga/templates/orga/submission/tag_form.html:18
 #: pretalx/orga/templates/orga/submission/tag_form.html:24
@@ -7776,7 +7776,7 @@ msgid ""
 "used for all events you are participating in on this server."
 msgstr ""
 "Bitte gib den Namen an, den Du veröffentlichen willst. Dieser Name wird für "
-"alle Veranstaltungen verwendet, für die Du auf dieser Website Vorträge "
+"alle Veranstaltungen verwendet, für die Du auf dieser Website Workshops "
 "einreichst."
 
 #: pretalx/person/models/user.py:93
@@ -8032,7 +8032,7 @@ msgstr "Programm"
 #. formats. Plural, used in headings.
 #: pretalx/schedule/phrases.py:13
 msgid "Sessions"
-msgstr "Vorträge"
+msgstr "Workshops"
 
 #: pretalx/schedule/phrases.py:20
 msgid "We released our first schedule!"
@@ -9639,7 +9639,7 @@ msgstr "abgelehnt"
 #~ msgstr "Maxe Mustermann"
 
 #~ msgid "Should the sessions marked as featured be shown publicly?"
-#~ msgstr "Sollen die als Highlight markierten Vorträge sichtbar sein?"
+#~ msgstr "Sollen die als Highlight markierten Workshops sichtbar sein?"
 
 #~ msgid "unconfirmed session"
 #~ msgid_plural "unconfirmed sessions"
@@ -9662,7 +9662,7 @@ msgstr "abgelehnt"
 #~ msgstr "Zusätzliche Review-Einstellungen"
 
 #~ msgid "Scheduled Sessions"
-#~ msgstr "Verplante Vorträge"
+#~ msgstr "Verplante Workshops"
 
 #~ msgid "This proposal can’t be reviewed at the moment."
 #~ msgstr "Die Einreichung kann derzeit nicht bewertet werden."
@@ -9799,8 +9799,8 @@ msgstr "abgelehnt"
 #~ "Even the busiest event organisers should make time to see at least one "
 #~ "session ;)"
 #~ msgstr ""
-#~ "Sogar die Veranstalter, die nur am rotieren sind, sollte mindestens einen "
-#~ "Vortrag anhören - welchen nimmst du?"
+#~ "Sogar die Veranstalter, die nur am rotieren sind, sollte mindestens an einem "
+#~ "Workshop teilnehmen - welchen nimmst du?"
 
 #~ msgid "Pudding"
 #~ msgstr "Pudding"
@@ -9914,7 +9914,7 @@ msgstr "abgelehnt"
 #~ "hast, um sicherzustellen, dass du die aktuelle Version siehst."
 
 #~ msgid "No talk matches your search."
-#~ msgstr "Keine Vorträge wurde für diese Suche gefunden."
+#~ msgstr "Kein Workshop wurde für diese Suche gefunden."
 
 #~ msgid ""
 #~ "The proportional schedule display will size each talk so that it is clear "
@@ -10041,7 +10041,7 @@ msgstr "abgelehnt"
 #~ "enabled and the talk was accepted."
 #~ msgstr ""
 #~ "Zeige diese Einreichung auf der Vorschauseite, wenn diese freigegeben ist "
-#~ "und der Vortrag angenommen wurde."
+#~ "und der Workshop angenommen wurde."
 
 #~ msgid "This stylesheet is not valid CSS."
 #~ msgstr "Diese Datei ist kein valides CSS."
@@ -10286,7 +10286,7 @@ msgstr "abgelehnt"
 #~ msgstr ""
 #~ "Hi!\n"
 #~ "\n"
-#~ "Wir haben eine neue Programmversion, und dein Vortrag wurde verlegt:\n"
+#~ "Wir haben eine neue Programmversion, und dein Workshop wurde verlegt:\n"
 #~ "Von {old_datetime} ({old_room}) nach {new_datetime} ({new_room}).\n"
 #~ "\n"
 #~ "Wenn das ein Problem ist, melde dich einfach!\n"
@@ -10338,7 +10338,7 @@ msgstr "abgelehnt"
 #~ "anderen!"
 
 #~ msgid "total talks"
-#~ msgstr "Vorträge insgesamt"
+#~ msgstr "Workshops insgesamt"
 
 #~ msgid "The submitted availability is not within the event timeframe."
 #~ msgstr "Die Verfügbarkeit liegt nicht im Veranstaltungszeitraum."
