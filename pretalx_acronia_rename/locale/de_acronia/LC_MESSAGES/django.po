@@ -1024,7 +1024,7 @@ msgstr "Einreichungsart"
 #: pretalx/orga/views/cfp.py:636 pretalx/submission/models/access_code.py:28
 #: pretalx/submission/models/submission.py:151
 msgid "Track"
-msgstr "Track"
+msgstr "Level"
 
 #: pretalx/cfp/templates/cfp/includes/user_submission_header.html:63
 #: pretalx/orga/templates/orga/cfp/text.html:164
@@ -1421,15 +1421,15 @@ msgstr "Der Zugangscode wurde gelöscht."
 
 #: pretalx/common/log_display.py:111
 msgid "A track was added."
-msgstr "Ein Track wurde hinzugefügt."
+msgstr "Ein Level wurde hinzugefügt."
 
 #: pretalx/common/log_display.py:112
 msgid "A track was deleted."
-msgstr "Ein Track wurde gelöscht."
+msgstr "Ein Level wurde gelöscht."
 
 #: pretalx/common/log_display.py:113
 msgid "A track was modified."
-msgstr "Ein Track wurde verändert."
+msgstr "Ein Level wurde verändert."
 
 #: pretalx/common/log_display.py:114
 msgid "A speaker has been marked as arrived."
@@ -2498,7 +2498,7 @@ msgstr "Auf diese Veranstaltungen beschränken"
 #: pretalx/person/models/information.py:36
 #: pretalx/submission/models/review.py:22
 msgid "Limit to tracks"
-msgstr "Auf bestimmte Tracks beschränken"
+msgstr "Auf bestimmte Level beschränken"
 
 #: pretalx/event/models/organiser.py:177
 msgid "Can create events"
@@ -2734,11 +2734,11 @@ msgstr "Einreichungstyp der Einreichung"
 
 #: pretalx/mail/context.py:196
 msgid "Track A"
-msgstr "Track A"
+msgstr "Level A"
 
 #: pretalx/mail/context.py:197
 msgid "The track the proposal belongs to"
-msgstr "Der Track, zu dem die Einreichung gehört"
+msgstr "Das Level, zu dem die Einreichung gehört"
 
 #: pretalx/mail/context.py:204
 msgid ""
@@ -3246,11 +3246,11 @@ msgstr ""
 
 #: pretalx/orga/forms/cfp.py:39
 msgid "Use tracks"
-msgstr "Tracks verwenden"
+msgstr "Level verwenden"
 
 #: pretalx/orga/forms/cfp.py:41
 msgid "Do you organise your sessions by tracks?"
-msgstr "Werden die Workshops dieser Veranstaltung in Tracks sortiert?"
+msgstr "Werden die Workshops dieser Veranstaltung in Level sortiert?"
 
 #: pretalx/orga/forms/cfp.py:44 pretalx/submission/models/submission.py:210
 msgid "Slot Count"
@@ -3394,7 +3394,7 @@ msgstr "<a href=\"{url}\">Hier</a> kannst du einen Zugangscode hinzufügen."
 
 #: pretalx/orga/forms/cfp.py:394
 msgid "You already have a track by this name!"
-msgstr "Ihr habt schon einen Track dieses Namens!"
+msgstr "Ihr habt schon ein Level dieses Namens!"
 
 #: pretalx/orga/forms/cfp.py:448
 #, python-brace-format
@@ -3415,7 +3415,7 @@ msgstr ""
 #: pretalx/orga/forms/cfp.py:463
 #, python-brace-format
 msgid "It will allow you to submit a proposal to the “{track}” track."
-msgstr "Er erlaubt Dir, eine Einreichung zum „{track}“-Track einzureichen."
+msgstr "Er erlaubt Dir, eine Einreichung zum „{track}“-Level einzureichen."
 
 #: pretalx/orga/forms/cfp.py:469
 msgid "It will allow you to submit a proposal to our CfP."
@@ -3842,7 +3842,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Limit to tracks"
 msgid "Limit days"
-msgstr "Auf bestimmte Tracks beschränken"
+msgstr "Auf bestimmte Level beschränken"
 
 #: pretalx/orga/forms/event.py:587
 #, fuzzy
@@ -3852,8 +3852,8 @@ msgstr "Auf bestimmte Tracks beschränken"
 msgid ""
 "You can limit the days shown in the widget. Leave empty to show all days."
 msgstr ""
-"Du kannst diese Frage auf bestimmte Tracks beschränken. Lass das Feld frei, "
-"um sie auf alle Tracks anzuwenden."
+"Du kannst diese Frage auf bestimmte Level beschränken. Lass das Feld frei, "
+"um sie auf alle Level anzuwenden."
 
 #: pretalx/orga/forms/event.py:593
 msgid "Widget language"
@@ -4017,7 +4017,7 @@ msgstr ""
 #: pretalx/submission/forms/submission.py:265
 #: pretalx/submission/models/question.py:156
 msgid "Tracks"
-msgstr "Tracks"
+msgstr "Level"
 
 #: pretalx/orga/forms/review.py:92
 msgid "No score"
@@ -4804,7 +4804,7 @@ msgid ""
 "be seen with a matching access code."
 msgstr ""
 "Zugangscdoes können genutzt werden, um noch nach dem Abgabeschluss "
-"Einreichungen zu ermöglichen. Sie können auch für ausgeblendete Tracks oder "
+"Einreichungen zu ermöglichen. Sie können auch für ausgeblendete Level oder "
 "Einreichungstypen genutzt werden, die nur mit dem passenden Zugangscode "
 "gesehen werden können."
 
@@ -5210,7 +5210,7 @@ msgstr "Verfügbarkeit"
 #: pretalx/orga/templates/orga/cfp/track_form.html:24
 #: pretalx/orga/templates/orga/cfp/track_view.html:42
 msgid "New track"
-msgstr "Track anlegen"
+msgstr "Level anlegen"
 
 #: pretalx/orga/templates/orga/cfp/track_view.html:32
 msgid ""
@@ -5219,9 +5219,9 @@ msgid ""
 "themselves. Track colors are helpful to help attendees navigate your "
 "schedule."
 msgstr ""
-"Tracks werden genutzt, um Workshops in Kategorien zu sortieren. In den Einreichungs-"
-"Einstellungen kann festgelegt werden, ob die Teacher den Track beim "
-"Einreichen angeben können. Track-Farben helfen den Teilnehmern, sich im "
+"Level werden genutzt, um Workshops in Kategorien zu sortieren. In den Einreichungs-"
+"Einstellungen kann festgelegt werden, ob die Teacher das Level beim "
+"Einreichen angeben können. Level-Farben helfen den Teilnehmern, sich im "
 "Programm besser zurechtzufinden."
 
 #: pretalx/orga/templates/orga/cfp/track_view.html:50
@@ -5840,7 +5840,7 @@ msgid ""
 "more granular assignments, you can also assign reviewers to proposals "
 "individually."
 msgstr ""
-"Reviewer können in Teams und zu bestimmten Tracks zugewiesen werden. Wenn "
+"Reviewer können in Teams und zu bestimmten Level zugewiesen werden. Wenn "
 "ihr kleinteiligere Zuweisungen braucht, könnt ihr aber auch Reviewern "
 "individuell Einreichungen zuweisen."
 
@@ -5854,7 +5854,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/review/assignment.html:52
 msgid "Limited to tracks"
-msgstr "Auf bestimmte Tracks beschränkt"
+msgstr "Auf bestimmte Level beschränkt"
 
 #: pretalx/orga/templates/orga/review/assignment.html:108
 #, python-format
@@ -6321,8 +6321,8 @@ msgstr[1] ""
 msgid "One session has <strong>not yet been assigned a track</strong>."
 msgid_plural ""
 "%(count)s sessions have <strong>not yet been assigned a track</strong>."
-msgstr[0] "Ein Programmpunkt hat noch <strong>keinen Track</strong>."
-msgstr[1] "%(count)s Programmpunkte haben noch <strong>keinen Track</strong>."
+msgstr[0] "Ein Programmpunkt hat noch <strong>kein Level</strong>."
+msgstr[1] "%(count)s Programmpunkte haben noch <strong>kein Level</strong>."
 
 #: pretalx/orga/templates/orga/schedule/release.html:92
 msgid "Warnings"
@@ -6946,11 +6946,11 @@ msgstr "Workshops nach Einreichungstyp"
 
 #: pretalx/orga/templates/orga/submission/stats.html:57
 msgid "Proposals by track"
-msgstr "Einreichungen nach Track"
+msgstr "Einreichungen nach Level"
 
 #: pretalx/orga/templates/orga/submission/stats.html:58
 msgid "Sessions by track"
-msgstr "Workshops nach Track"
+msgstr "Workshops nach Level"
 
 #: pretalx/orga/templates/orga/submission/stats.html:68
 msgid "Proposals by state"
@@ -7081,12 +7081,12 @@ msgstr ""
 
 #: pretalx/orga/views/cfp.py:650
 msgid "The track has been deleted."
-msgstr "Der Track wurde gelöscht."
+msgstr "Das Level wurde gelöscht."
 
 #: pretalx/orga/views/cfp.py:654
 msgid "This track is in use in a proposal and cannot be deleted."
 msgstr ""
-"Der Track hat schon eine oder mehrere Einreichungen und kann nicht gelöscht "
+"Das Level hat schon eine oder mehrere Einreichungen und kann nicht gelöscht "
 "werden."
 
 #: pretalx/orga/views/cfp.py:732
@@ -7200,8 +7200,8 @@ msgid ""
 "You want submitters to choose the tracks for their proposals, but you do not "
 "offer tracks for selection. Add at least one track!"
 msgstr ""
-"Du lässt bei der Einreichung den Track der Einreichung wählen, aber es "
-"stehen keine Tracks zur Wahl. Leg mindestens einen Track an!"
+"Du lässt bei der Einreichung das Level der Einreichung wählen, aber es "
+"stehen keine Level zur Wahl. Leg mindestens ein Level an!"
 
 #: pretalx/orga/views/event.py:187
 msgid "You have configured only one session type so far."
@@ -7751,7 +7751,7 @@ msgstr "Nur zugesagte Teacher"
 
 #: pretalx/person/models/information.py:38
 msgid "Leave empty to show this information to all tracks."
-msgstr "Leer lassen, um diese Informationen für alle Tracks zu zeigen."
+msgstr "Leer lassen, um diese Informationen für alle Level zu zeigen."
 
 #: pretalx/person/models/information.py:42
 msgid "Limit to proposal types"
@@ -8220,8 +8220,8 @@ msgid ""
 "You can restrict the access code to a single track, or leave it open for all "
 "tracks."
 msgstr ""
-"Du kannst diesen Zugangscode auf bestimmte Tracks beschränken. Lass das Feld "
-"frei, um ihn auf alle Tracks anzuwenden."
+"Du kannst diesen Zugangscode auf bestimmte Level beschränken. Lass das Feld "
+"frei, um ihn auf alle Level anzuwenden."
 
 #: pretalx/submission/models/access_code.py:39
 msgid "Session Type"
@@ -8386,8 +8386,8 @@ msgstr "benötigt"
 msgid ""
 "You can limit this field to some tracks. Leave empty to apply to all tracks."
 msgstr ""
-"Du kannst diese Frage auf bestimmte Tracks beschränken. Lass das Feld frei, "
-"um sie auf alle Tracks anzuwenden."
+"Du kannst diese Frage auf bestimmte Level beschränken. Lass das Feld frei, "
+"um sie auf alle Level anzuwenden."
 
 #: pretalx/submission/models/question.py:163
 #, fuzzy
@@ -8575,7 +8575,7 @@ msgid ""
 "workflow. "
 msgstr ""
 "Wenn du „alle“ auswählst, können Reviewer alle Einreichungen sehen, zu denen "
-"ihr Team Zugriff hat (also entweder alle, oder auf bestimmte Tracks "
+"ihr Team Zugriff hat (also entweder alle, oder auf bestimmte Level "
 "beschränkt). In diesem Modus werden ihnen zugewiesene Einreichungen "
 "hervorgehoben und immer ganz oben gezeigt. "
 
@@ -8729,7 +8729,7 @@ msgstr ""
 #: pretalx/submission/models/track.py:41
 msgid ""
 "This track will only be shown to submitters with a matching access code."
-msgstr "Dieser Track wird nur bei passendem Zugangscode angezeigt."
+msgstr "Dieses Level wird nur bei passendem Zugangscode angezeigt."
 
 #: pretalx/submission/models/type.py:29
 msgid "name"
@@ -8943,7 +8943,7 @@ msgstr "abgelehnt"
 #~ msgstr "Oh :( Wir konnten deine Änderungen leider nicht speichern."
 
 #~ msgid "The track has been saved."
-#~ msgstr "Der Track wurde gespeichert."
+#~ msgstr "Dieses Level wurde gespeichert."
 
 #~ msgid "The access code has been saved."
 #~ msgstr "Der Zugangscode wurde gespeichert."
@@ -9044,8 +9044,8 @@ msgstr "abgelehnt"
 #~ "additional access rights (e.g. due to being member in another team) will "
 #~ "still be able to see all proposals."
 #~ msgstr ""
-#~ "Review-Teams können auf bestimmte Tracks beschränkt werden, sodass "
-#~ "Reviewer nur Einreichungen aus diesen Tracks sehen können. Bitte beachte, "
+#~ "Review-Teams können auf bestimmte Level beschränkt werden, sodass "
+#~ "Reviewer nur Einreichungen aus diesen Leveln sehen können. Bitte beachte, "
 #~ "dass Reviewer mit zusätzlichen Rechten (z.B. weil sie Mitglied eines "
 #~ "anderen Teams sind) trotzdem weiterhin alle Einreichungen sehen können "
 #~ "werden."
@@ -9053,10 +9053,10 @@ msgstr "abgelehnt"
 #~ msgid ""
 #~ "None of the events this team has access to has any tracks configured at "
 #~ "this time."
-#~ msgstr "Keine der Veranstaltungen dieses Teams hat derzeit Tracks angelegt."
+#~ msgstr "Keine der Veranstaltungen dieses Teams hat derzeit Level angelegt."
 
 #~ msgid "Track descriptions"
-#~ msgstr "Track-Beschreibungen"
+#~ msgstr "Level-Beschreibungen"
 
 #~ msgid "No description provided."
 #~ msgstr "Keine Beschreibung verfügbar."
@@ -9215,7 +9215,7 @@ msgstr "abgelehnt"
 #~ msgstr "Möchtest du diese Einreichungsart wirklich löschen?"
 
 #~ msgid "Do you really want to delete this track?"
-#~ msgstr "Möchtest du diesen Track wirklich löschen?"
+#~ msgstr "Möchtest du dieses Level wirklich löschen?"
 
 #~ msgid "Do you really want to delete this event?"
 #~ msgstr "Möchtest du diese Veranstaltung wirklich löschen?"
@@ -9396,10 +9396,10 @@ msgstr "abgelehnt"
 #~ "Alle bestätigten Teacher, die noch keine Folien hochgeladen haben"
 
 #~ msgid "All proposals in these tracks"
-#~ msgstr "Alle Einreichungen in diesen Tracks"
+#~ msgstr "Alle Einreichungen in diesen Leveln"
 
 #~ msgid "Leave empty to include proposals from all tracks."
-#~ msgstr "Leerlassen für Einreichungen aller Tracks."
+#~ msgstr "Leerlassen für Einreichungen aller Level."
 
 #~ msgid "All proposals of these types"
 #~ msgstr "Alle Einreichungen dieses Typs"
@@ -9686,7 +9686,7 @@ msgstr "abgelehnt"
 #~ msgstr "Wähle eins oder mehrere"
 
 #~ msgid "Limit to certain tracks?"
-#~ msgstr "Auf bestimmte Tracks beschränken?"
+#~ msgstr "Auf bestimmte Level beschränken?"
 
 #~ msgid ""
 #~ "The title of the proposal in question. Only usable in default templates."
@@ -10334,7 +10334,7 @@ msgstr "abgelehnt"
 
 #~ msgid "You cannot delete the only track. Try creating another one first!"
 #~ msgstr ""
-#~ "Du kannst nicht den einzigen Track löschen. Erstell bitte vorher einen "
+#~ "Du kannst nicht das einzige Level löschen. Erstell bitte vorher einen "
 #~ "anderen!"
 
 #~ msgid "total talks"
