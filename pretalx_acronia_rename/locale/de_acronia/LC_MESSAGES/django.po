@@ -37,7 +37,7 @@ msgstr "Workshop-Plan ansehen"
 
 #: pretalx/agenda/phrases.py:14
 msgid "View schedule preview"
-msgstr "Programm-Vorschau ansehen"
+msgstr "Workshop-Plan-Vorschau ansehen"
 
 #: pretalx/agenda/phrases.py:15
 msgid "Edit or view your proposals"
@@ -46,7 +46,7 @@ msgstr "Meine Einreichungen ansehen/bearbeiten"
 #: pretalx/agenda/templates/agenda/base.html:48
 msgid "This schedule-related page is non-public. Only organisers can see it."
 msgstr ""
-"Diese Programm-Seite ist derzeit nicht öffentlich. Nur die Veranstalter "
+"Diese Workshop-Plan-Seite ist derzeit nicht öffentlich. Nur die Veranstalter "
 "können sie sehen."
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:14
@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 "Wir haben eine Liste hervorragender Einreichungen ausgewählt, damit du dir "
 "ein Bild von unserer Veranstaltung machen kannst. Das ist nicht unser "
-"komplettes Programm, das folgt noch!"
+"kompletter Workshop-Plan, der folgt noch!"
 
 #: pretalx/agenda/templates/agenda/featured.html:23
 msgid ""
@@ -162,7 +162,7 @@ msgid ""
 "href=\"%(href)s\">here</a>."
 msgstr ""
 "Um unseren Workshop-Plan mit voller Funktionalität zu sehen, wie Zeitzonen und "
-"persönlicher Programmgestaltung, schalte bitte JavaScript an und klicke <a "
+"persönlicher Workshop-Plan-Gestaltung, schalte bitte JavaScript an und klicke <a "
 "href=\"%(href)s\">hier</a>."
 
 #: pretalx/agenda/templates/agenda/schedule_nojs.html:77
@@ -218,12 +218,12 @@ msgid ""
 "You're currently not logged in, so your favourited talks will only be stored "
 "locally in your browser."
 msgstr ""
-"Du bist derzeit nicht angemeldet, deshalb wird deine Programmauswahl nur "
+"Du bist derzeit nicht angemeldet, deshalb wird deine Workshopauswahl nur "
 "lokal im Browser gespeichert."
 
 #: pretalx/agenda/views/schedule.py:235
 msgid "Your favourites could only be saved locally in your browser."
-msgstr "Deine Programmauswahl konnte nur lokal im Browser gespeichert werden."
+msgstr "Deine Workshopauswahl konnte nur lokal im Browser gespeichert werden."
 
 #: pretalx/agenda/views/talk.py:117
 #, python-brace-format
@@ -1512,12 +1512,12 @@ msgid ""
 msgstr ""
 "Hi,\n"
 "\n"
-"wir hoffen, dass dich pretalx als Einreichungs- und Programmsystem zufriedenstellt.\n"
+"wir hoffen, dass dich pretalx als Einreichungs- und Planungssystem zufriedenstellt.\n"
 "Diese Links werden dir in den nächsten Wochen hoffentlich nützen::\n"
 "\n"
 "- Dein Veranstaltungsdashboard: {event_dashboard}\n"
 "- Eine Liste der Einreichungen: {event_submissions}\n"
-"- Der Programmeditor: {event_schedule}\n"
+"- Der Workshop-Plan-Editor: {event_schedule}\n"
 "\n"
 "Wenn dir in pretalx noch etwas fehlt, schreib es uns gerne\n"
 "unter https://github.com/pretalx/pretalx/issues/new oder via\n"
@@ -2678,7 +2678,7 @@ msgstr "Die öffentliche URL der Veranstaltung"
 
 #: pretalx/mail/context.py:105
 msgid "The event’s public schedule URL"
-msgstr "Die Programm-URL der Veranstaltung"
+msgstr "Die Workshop-Plan-URL der Veranstaltung"
 
 #: pretalx/mail/context.py:112
 msgid "The event’s public CfP URL"
@@ -6406,7 +6406,7 @@ msgid ""
 "example link to your home page, your registration page, or your livestream "
 "here."
 msgstr ""
-"Diese Links werden oben auf allen öffentlichen Programm-Seiten gezeigt, also "
+"Diese Links werden oben auf allen öffentlichen Workshop-Plan-Seiten gezeigt, also "
 "z.B. über dem Workshop-Plan, den Teacherprofilen, den Sessionseiten, etc. "
 "Hier könntest du beispielsweise die Veranstaltungshomepage, den Ticketshop "
 "oder den Livestream verlinken."
@@ -6630,7 +6630,7 @@ msgstr "Teacher-Daten exportieren"
 
 #: pretalx/orga/templates/orga/speaker/export.html:64
 msgid "Schedule exports"
-msgstr "Programm-Export"
+msgstr "Workshop-Plan-Export"
 
 #: pretalx/orga/templates/orga/speaker/export.html:67
 msgid ""
@@ -7158,7 +7158,7 @@ msgstr "von {total_days} Tagen"
 
 #: pretalx/orga/views/dashboard.py:286
 msgid "current schedule"
-msgstr "Aktuelles Programm"
+msgstr "Aktueller Workshop-Plan"
 
 #: pretalx/orga/views/dashboard.py:311
 msgid "unconfirmed"
@@ -7649,7 +7649,7 @@ msgstr "{name} Einreichungs-Feed"
 #: pretalx/orga/views/submission.py:663
 #, python-brace-format
 msgid "Updates to the {name} schedule."
-msgstr "Neuigkeiten beim {name}-Programm."
+msgstr "Neuigkeiten beim {name}-Workshop-Plan."
 
 #: pretalx/orga/views/submission.py:669
 #, python-brace-format
@@ -7881,11 +7881,11 @@ msgstr "Keine Teacher"
 
 #: pretalx/schedule/exporters.py:293
 msgid "iCal (full event)"
-msgstr "iCal (ganzes Programm)"
+msgstr "iCal (ganzer Workshop-Plan)"
 
 #: pretalx/schedule/exporters.py:324
 msgid "iCal (your starred sessions)"
-msgstr "iCal (dein Programm)"
+msgstr "iCal (dein Workshop-Plan)"
 
 #: pretalx/schedule/forms.py:21
 msgid ""
@@ -8026,7 +8026,7 @@ msgstr "Wann der Beitrag endet, sofern er schon geplant ist"
 #: pretalx/schedule/phrases.py:9
 msgctxt "Schedule/program of the conference"
 msgid "Schedule"
-msgstr "Programm"
+msgstr "Workshop-Plan"
 
 #. Translators: Ideally a neutral term that will work for workshop, talks and special
 #. formats. Plural, used in headings.
@@ -8983,7 +8983,7 @@ msgstr "abgelehnt"
 #~ msgstr "Neue Pause"
 
 #~ msgid "Drag the box to the schedule to create a new break"
-#~ msgstr "Zieh die Box auf das Programm, um eine neue Pause zu erstellen"
+#~ msgstr "Zieh die Box auf den Workshop-Plan, um eine neue Pause zu erstellen"
 
 #, fuzzy
 #~ msgid "Sort (highest first)"
@@ -9909,7 +9909,7 @@ msgstr "abgelehnt"
 #~ "outdated. <strong>Refresh</strong> this page once you have an internet "
 #~ "connection to see the current schedule."
 #~ msgstr ""
-#~ "Du siehst gerade eine gespeicherte Version des Programms, weil du nicht "
+#~ "Du siehst gerade eine gespeicherte Version des Workshop-Plans, weil du nicht "
 #~ "online bist. <strong>Lad die Seite neu</strong>, wenn du wieder Netz "
 #~ "hast, um sicherzustellen, dass du die aktuelle Version siehst."
 
@@ -9923,10 +9923,10 @@ msgstr "abgelehnt"
 #~ "Please note that the schedule widget will always be in the proportional "
 #~ "schedule mode."
 #~ msgstr ""
-#~ "Die proportionale Darstellung des Programms zeigt jeden Eintrag so an, "
+#~ "Die proportionale Darstellung des Workshop-Plans zeigt jeden Eintrag so an, "
 #~ "dass sichtbar ist, wann er anfängt und endet. Die Darstellung als Liste "
 #~ "zeigt alle Workshops untereinander, selbst wenn sie in verschiedenen "
-#~ "Räumen stattfinden. Das Programm-Widget nutzt immer den proportionalen "
+#~ "Räumen stattfinden. Das Workshop-Plan-Widget nutzt immer den proportionalen "
 #~ "Modus."
 
 #~ msgid "Proportional"
@@ -9977,7 +9977,7 @@ msgstr "abgelehnt"
 #~ msgid ""
 #~ "Our sneak peek has been disabled because we have published a schedule!"
 #~ msgstr ""
-#~ "Die Programmvorschau ist jetzt abgeschaltet, weil wir einen Ablaufplan "
+#~ "Die Workshop-Plan-Vorschau ist jetzt abgeschaltet, weil wir einen Ablaufplan "
 #~ "veröffentlicht haben."
 
 #~ msgid "Show on dashboard"
@@ -9996,14 +9996,14 @@ msgstr "abgelehnt"
 #~ "Greift nur, wenn die Veranstaltung öffentlich ist."
 
 #~ msgid "Show a sneak peek before schedule release"
-#~ msgstr "Programm-Vorschau anzeigen"
+#~ msgstr "Workshop-Plan-Vorschau anzeigen"
 
 #~ msgid ""
 #~ "Set to publicly display a selected list of talks which you have marked to "
 #~ "be featured."
 #~ msgstr ""
 #~ "Aktiviere diese Option, um eine Auswahl von Einreichungen schon vor "
-#~ "Programmveröffentlichung zu zeigen."
+#~ "Workshop-Plan-Veröffentlichung zu zeigen."
 
 #~ msgid "You’re on a roll!"
 #~ msgstr "Weiter so!"
@@ -10154,7 +10154,7 @@ msgstr "abgelehnt"
 #~ msgstr "Fehler beim Parsen der XML-Datei: "
 
 #~ msgid "Unable to release new schedule: "
-#~ msgstr "Fehler beim Veröffentlichen des neuen Programms: "
+#~ msgstr "Fehler beim Veröffentlichen des neuen Workshop-Plans: "
 
 #~ msgid "All speakers of the selected submissions below"
 #~ msgstr "Alle Teacher der unten ausgewählten Einreichungen"
