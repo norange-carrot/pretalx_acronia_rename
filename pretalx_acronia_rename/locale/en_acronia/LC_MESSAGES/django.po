@@ -22,7 +22,7 @@ msgstr "Thank you for your feedback!"
 #: pretalx/agenda/phrases.py:9
 #, read-only
 msgid "Thanks, we (and our speakers) appreciate your feedback!"
-msgstr "Thanks, we (and our speakers) appreciate your feedback!"
+msgstr "Thanks, we (and our teachers) appreciate your feedback!"
 
 #: pretalx/agenda/phrases.py:11
 #, read-only
@@ -133,7 +133,7 @@ msgstr "Feedback"
 msgid ""
 "This review is for you personally, not for all speakers in this session."
 msgstr ""
-"This review is for you personally, not for all speakers in this session."
+"This review is for you personally, not for all teachers in this session."
 
 #: pretalx/agenda/templates/agenda/feedback_form.html:17
 #, read-only
@@ -142,8 +142,8 @@ msgid ""
 "presentation. Even a short review can prove valuable to a speaker! Please "
 "take the time and communicate your feedback in a constructive way."
 msgstr ""
-"Reviews are a valuable tool for speakers to improve their content and "
-"presentation. Even a short review can prove valuable to a speaker! Please "
+"Reviews are a valuable tool for teachers to improve their content and "
+"presentation. Even a short review can prove valuable to a teacher! Please "
 "take the time and communicate your feedback in a constructive way."
 
 #: pretalx/agenda/templates/agenda/feedback_form.html:24
@@ -193,7 +193,7 @@ msgstr "%(minutes)smin"
 #: pretalx/orga/templates/orga/submission/speakers.html:39
 #, read-only
 msgid "The speaker’s profile picture"
-msgstr "The speaker’s profile picture"
+msgstr "The teacher’s profile picture"
 
 #: pretalx/agenda/templates/agenda/speaker.html:69
 #, read-only
@@ -225,7 +225,7 @@ msgstr "See also:"
 #: pretalx/agenda/templates/agenda/talk.html:174
 #, read-only
 msgid "This speaker also appears in:"
-msgstr "This speaker also appears in:"
+msgstr "This teacher also appears in:"
 
 #: pretalx/agenda/views/schedule.py:128
 #, read-only
@@ -431,7 +431,7 @@ msgstr "This proposal cannot be edited anymore."
 #: pretalx/cfp/phrases.py:34
 #, read-only
 msgid "Speaker email"
-msgstr "Speaker email"
+msgstr "Teacher email"
 
 #: pretalx/cfp/phrases.py:35
 #, python-brace-format, read-only
@@ -456,7 +456,7 @@ msgid ""
 msgstr ""
 "Hi!\n"
 "\n"
-"I’d like to invite you to be a speaker in the session\n"
+"I’d like to invite you to be a teacher in the session\n"
 "\n"
 "  “{title}”\n"
 "\n"
@@ -580,7 +580,7 @@ msgid ""
 "You, %(name)s, have been invited to be a speaker for the session “%(talk)s”. "
 "Do you accept the invitation?"
 msgstr ""
-"You, %(name)s, have been invited to be a speaker for the session “%(talk)s”. "
+"You, %(name)s, have been invited to be a teacher for the session “%(talk)s”. "
 "Do you accept the invitation?"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:34
@@ -620,7 +620,7 @@ msgid ""
 msgstr ""
 "You do not need an account to view the event, or submit feedback, or receive "
 "schedule updates. You’ll only need an account if you participate in the "
-"event as speaker or as an organiser."
+"event as teacher or as an organiser."
 
 #: pretalx/cfp/templates/cfp/event/login.html:17
 #, read-only
@@ -865,8 +865,8 @@ msgstr "Attendees can leave feedback here after your session has taken place."
 #, read-only
 msgid "Speaker"
 msgid_plural "Speakers"
-msgstr[0] "Speaker"
-msgstr[1] "Speakers"
+msgstr[0] "Teacher"
+msgstr[1] "Teachers"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:49
 #, read-only
@@ -961,7 +961,7 @@ msgid ""
 "email, (which might get caught by spam filters) you can also give them this "
 "link:"
 msgstr ""
-"Invite another speaker to your proposal here. Instead of letting us send an "
+"Invite another teacher to your proposal here. Instead of letting us send an "
 "email, (which might get caught by spam filters) you can also give them this "
 "link:"
 
@@ -1550,17 +1550,17 @@ msgstr "A review was added."
 #: pretalx/common/log_display.py:101
 #, read-only
 msgid "A speaker was added to the proposal."
-msgstr "A speaker was added to the proposal."
+msgstr "A teacher was added to the proposal."
 
 #: pretalx/common/log_display.py:102
 #, read-only
 msgid "A speaker was invited to the proposal."
-msgstr "A speaker was invited to the proposal."
+msgstr "A teacher was invited to the proposal."
 
 #: pretalx/common/log_display.py:103
 #, read-only
 msgid "A speaker was removed from the proposal."
-msgstr "A speaker was removed from the proposal."
+msgstr "A teacher was removed from the proposal."
 
 #: pretalx/common/log_display.py:104
 #, read-only
@@ -1655,27 +1655,27 @@ msgstr "A track was modified."
 #: pretalx/common/log_display.py:122
 #, read-only
 msgid "A speaker has been marked as arrived."
-msgstr "A speaker has been marked as arrived."
+msgstr "A teacher has been marked as arrived."
 
 #: pretalx/common/log_display.py:123
 #, read-only
 msgid "A speaker has been marked as not arrived."
-msgstr "A speaker has been marked as not arrived."
+msgstr "A teacher has been marked as not arrived."
 
 #: pretalx/common/log_display.py:124
 #, read-only
 msgid "A speaker information note was added."
-msgstr "A speaker information note was added."
+msgstr "A teacher information note was added."
 
 #: pretalx/common/log_display.py:125
 #, read-only
 msgid "A speaker information note was modified."
-msgstr "A speaker information note was modified."
+msgstr "A teacher information note was modified."
 
 #: pretalx/common/log_display.py:126
 #, read-only
 msgid "A speaker information note was deleted."
-msgstr "A speaker information note was deleted."
+msgstr "A teacher information note was deleted."
 
 #: pretalx/common/log_display.py:127
 #, read-only
@@ -1745,7 +1745,7 @@ msgstr "Email"
 #: pretalx/common/log_display.py:210
 #, read-only
 msgid "Speaker profile"
-msgstr "Speaker profile"
+msgstr "Teacher profile"
 
 #: pretalx/common/log_display.py:214
 #: pretalx/event/stages.py:98
@@ -2911,7 +2911,7 @@ msgstr "Is a reviewer"
 #: pretalx/event/models/organiser.py:222
 #, read-only
 msgid "Always hide speaker names"
-msgstr "Always hide speaker names"
+msgstr "Always hide teacher names"
 
 #: pretalx/event/models/organiser.py:224
 #, read-only
@@ -2921,7 +2921,7 @@ msgid ""
 "names for this team."
 msgstr ""
 "Normally, anonymisation is configured in the event review settings. This "
-"setting will <b>override the event settings</b> and always hide speaker "
+"setting will <b>override the event settings</b> and always hide teacher "
 "names for this team."
 
 #: pretalx/event/models/organiser.py:237
@@ -2998,7 +2998,7 @@ msgstr "Monitor proposals"
 #: pretalx/event/stages.py:63
 #, read-only
 msgid "Submit sessions for your speakers"
-msgstr "Submit sessions for your speakers"
+msgstr "Submit sessions for your teachers"
 
 #: pretalx/event/stages.py:66
 #, read-only
@@ -3028,12 +3028,12 @@ msgstr "Release schedules as needed"
 #: pretalx/event/stages.py:92
 #, read-only
 msgid "Inform your speakers about the infrastructure"
-msgstr "Inform your speakers about the infrastructure"
+msgstr "Inform your teachers about the infrastructure"
 
 #: pretalx/event/stages.py:102
 #, read-only
 msgid "Provide a point of contact for the speakers"
-msgstr "Provide a point of contact for the speakers"
+msgstr "Provide a point of contact for the teachers"
 
 #: pretalx/event/stages.py:103
 #, read-only
@@ -3108,7 +3108,7 @@ msgstr "The proposal’s public URL"
 #: pretalx/mail/context.py:176
 #, read-only
 msgid "The speaker’s edit page for the proposal"
-msgstr "The speaker’s edit page for the proposal"
+msgstr "The teacher’s edit page for the proposal"
 
 #: pretalx/mail/context.py:183
 #, read-only
@@ -3133,7 +3133,7 @@ msgstr "The proposal’s title"
 #: pretalx/mail/context.py:204
 #, read-only
 msgid "The name(s) of all speakers in this proposal."
-msgstr "The name(s) of all speakers in this proposal."
+msgstr "The name(s) of all teachers in this proposal."
 
 #: pretalx/mail/context.py:210
 #, read-only
@@ -3339,7 +3339,7 @@ msgstr ""
 "We are sorry to tell you that we cannot accept your proposal\n"
 "“{submission_title}” to {event_name}. There were just too many great\n"
 "proposals - we hope to see you at {event_name} as an attendee instead\n"
-"of a speaker!\n"
+"of a teacher!\n"
 "\n"
 "The {event_name} organisers"
 
@@ -3521,12 +3521,12 @@ msgstr "Proposal rejected"
 #: pretalx/mail/models.py:40
 #, read-only
 msgid "Add a speaker to a proposal (new account)"
-msgstr "Add a speaker to a proposal (new account)"
+msgstr "Add a teacher to a proposal (new account)"
 
 #: pretalx/mail/models.py:43
 #, read-only
 msgid "Add a speaker to a proposal (existing account)"
-msgstr "Add a speaker to a proposal (existing account)"
+msgstr "Add a teacher to a proposal (existing account)"
 
 #: pretalx/mail/models.py:45
 #: pretalx/orga/templates/orga/cfp/question/remind.html:18
@@ -3729,7 +3729,7 @@ msgstr "Display deadline publicly"
 #: pretalx/orga/forms/cfp.py:150
 #, read-only
 msgid "Show the time and date the CfP ends to potential speakers."
-msgstr "Show the time and date the CfP ends to potential speakers."
+msgstr "Show the time and date the CfP ends to potential teachers."
 
 #: pretalx/orga/forms/cfp.py:153
 #, read-only
@@ -3883,12 +3883,12 @@ msgstr ""
 #: pretalx/orga/forms/cfp.py:522
 #, read-only
 msgid "Accepted or confirmed speakers"
-msgstr "Accepted or confirmed speakers"
+msgstr "Accepted or confirmed teachers"
 
 #: pretalx/orga/forms/cfp.py:523
 #, read-only
 msgid "Confirmed speakers"
-msgstr "Confirmed speakers"
+msgstr "Confirmed teachers"
 
 #: pretalx/orga/forms/cfp.py:526
 #: pretalx/orga/templates/orga/mails/_mail_editor.html:28
@@ -4077,7 +4077,7 @@ msgid ""
 msgstr ""
 "Any sessions you have scheduled already will be moved if you change the "
 "event dates. You will have to release a new schedule version to notify all "
-"speakers."
+"teachers."
 
 #: pretalx/orga/forms/event.py:191
 #, read-only
@@ -4392,7 +4392,7 @@ msgid ""
 "speakers in one session/multiple sessions for one speaker)?"
 msgstr ""
 "How do you want to separate data within a single cell (for example, multiple "
-"speakers in one session/multiple sessions for one speaker)?"
+"teachers in one session/multiple sessions for one teacher)?"
 
 #: pretalx/orga/forms/export.py:34
 #, read-only
@@ -4493,7 +4493,7 @@ msgid ""
 "Select speakers that should receive the email regardless of the other "
 "filters."
 msgstr ""
-"Select speakers that should receive the email regardless of the other "
+"Select teachers that should receive the email regardless of the other "
 "filters."
 
 #: pretalx/orga/forms/mails.py:317
@@ -4504,7 +4504,7 @@ msgid ""
 "used."
 msgstr ""
 "If you provide only one language, that language will be used for all emails. "
-"If you provide multiple languages, the best fit for each speaker will be "
+"If you provide multiple languages, the best fit for each teacher will be "
 "used."
 
 #: pretalx/orga/forms/mails.py:456
@@ -4607,7 +4607,7 @@ msgstr "Unknown proposal: {}"
 #: pretalx/orga/forms/schedule.py:21
 #, read-only
 msgid "Notify speakers of changes"
-msgstr "Notify speakers of changes"
+msgstr "Notify teachers of changes"
 
 #: pretalx/orga/forms/schedule.py:31
 #: pretalx/orga/templates/orga/cfp/question/remind.html:17
@@ -4639,17 +4639,17 @@ msgstr "Target group"
 #: pretalx/orga/forms/schedule.py:98
 #, read-only
 msgid "Speaker IDs"
-msgstr "Speaker IDs"
+msgstr "Teacher IDs"
 
 #: pretalx/orga/forms/schedule.py:100
 #, read-only
 msgid "The unique ID of a speaker is used in the speaker URL and in exports"
-msgstr "The unique ID of a speaker is used in the speaker URL and in exports"
+msgstr "The unique ID of a teacher is used in the teacher URL and in exports"
 
 #: pretalx/orga/forms/schedule.py:105
 #, read-only
 msgid "Speaker names"
-msgstr "Speaker names"
+msgstr "Teacher names"
 
 #: pretalx/orga/forms/schedule.py:121
 #: pretalx/orga/forms/schedule.py:140
@@ -4686,12 +4686,12 @@ msgstr "Average review score, if there have been reviews yet"
 #: pretalx/orga/forms/schedule.py:162
 #, read-only
 msgid "Resources provided by the speaker, either as links or as uploaded files"
-msgstr "Resources provided by the speaker, either as links or as uploaded files"
+msgstr "Resources provided by the teacher, either as links or as uploaded files"
 
 #: pretalx/orga/forms/speaker.py:17
 #, read-only
 msgid "Just speakers with accepted and confirmed proposals"
-msgstr "Just speakers with accepted and confirmed proposals"
+msgstr "Just teachers with accepted and confirmed proposals"
 
 #: pretalx/orga/forms/speaker.py:31
 #, read-only
@@ -4720,7 +4720,7 @@ msgstr "Picture"
 #: pretalx/orga/forms/speaker.py:45
 #, read-only
 msgid "The link to the speaker’s profile picture"
-msgstr "The link to the speaker’s profile picture"
+msgstr "The link to the teacher’s profile picture"
 
 #: pretalx/orga/forms/submission.py:79
 #: pretalx/submission/models/submission.py:213
@@ -4753,7 +4753,7 @@ msgid ""
 "right away. You can always apply pending changes for some or all proposals "
 "in one go once you’re ready to make your decisions public."
 msgstr ""
-"If you mark state changes as pending, they won’t be visible to speakers "
+"If you mark state changes as pending, they won’t be visible to teachers "
 "right away. You can always apply pending changes for some or all proposals "
 "in one go once you’re ready to make your decisions public."
 
@@ -4763,18 +4763,18 @@ msgid ""
 "The email address of the speaker holding the session. They will be invited "
 "to create an account."
 msgstr ""
-"The email address of the speaker holding the session. They will be invited "
+"The email address of the teacher holding the session. They will be invited "
 "to create an account."
 
 #: pretalx/orga/forms/submission.py:287
 #, read-only
 msgid "Speaker name"
-msgstr "Speaker name"
+msgstr "Teacher name"
 
 #: pretalx/orga/forms/submission.py:288
 #, read-only
 msgid "The name of the speaker that should be displayed publicly."
-msgstr "The name of the speaker that should be displayed publicly."
+msgstr "The name of the teacher that should be displayed publicly."
 
 #: pretalx/orga/forms/submission.py:292
 #, read-only
@@ -4784,7 +4784,7 @@ msgstr "Invite language"
 #: pretalx/orga/forms/submission.py:296
 #, read-only
 msgid "The language in which the speaker will receive their invitation email."
-msgstr "The language in which the speaker will receive their invitation email."
+msgstr "The language in which the teacher will receive their invitation email."
 
 #: pretalx/orga/forms/submission.py:312
 #, read-only
@@ -5341,7 +5341,7 @@ msgstr "Export reviews"
 #: pretalx/schedule/models/room.py:49
 #, read-only
 msgid "Speaker Information"
-msgstr "Speaker Information"
+msgstr "Teacher Information"
 
 #: pretalx/orga/templates/orga/base.html:385
 #: pretalx/orga/views/schedule.py:535
@@ -5377,7 +5377,7 @@ msgstr "Templates"
 #: pretalx/schedule/phrases.py:18
 #, read-only
 msgid "Speakers"
-msgstr "Speakers"
+msgstr "Teachers"
 
 #: pretalx/orga/templates/orga/base.html:460
 #, read-only
@@ -5546,10 +5546,10 @@ msgid ""
 "accommodation. Custom fields can be configured either on a per-proposal "
 "level, or per speaker, as you see fit."
 msgstr ""
-"Custom fields can help you sort out additional details with speakers, such "
+"Custom fields can help you sort out additional details with teachers, such "
 "as clothing sizes, special requirements such as dietary needs, or "
 "accommodation. Custom fields can be configured either on a per-proposal "
-"level, or per speaker, as you see fit."
+"level, or per teacher, as you see fit."
 
 #: pretalx/orga/templates/orga/cfp/question/list.html:53
 #, read-only
@@ -5605,7 +5605,7 @@ msgid ""
 "carefully if modifying it would render those answers obsolete. You could "
 "also deactivate this field and create a new one instead."
 msgstr ""
-"This custom field already has responses from some speakers – please consider "
+"This custom field already has responses from some teachers – please consider "
 "carefully if modifying it would render those answers obsolete. You could "
 "also deactivate this field and create a new one instead."
 
@@ -5621,7 +5621,7 @@ msgid ""
 "lengths (short sessions vs long sessions) or different presentation formats ("
 "talk vs workshop vs metal concert)."
 msgstr ""
-"Different session types may help to guide speakers into different slot "
+"Different session types may help to guide teachers into different slot "
 "lengths (short sessions vs long sessions) or different presentation formats ("
 "talk vs workshop vs metal concert)."
 
@@ -5698,7 +5698,7 @@ msgid ""
 "A good Call for Participation will engage potential speakers. Remember to "
 "include:"
 msgstr ""
-"A good Call for Participation will engage potential speakers. Remember to "
+"A good Call for Participation will engage potential teachers. Remember to "
 "include:"
 
 #: pretalx/orga/templates/orga/cfp/text.html:35
@@ -5733,7 +5733,7 @@ msgid ""
 "speakers?"
 msgstr ""
 "Do you offer financial or other support, e.g. support for first time "
-"speakers?"
+"teachers?"
 
 #: pretalx/orga/templates/orga/cfp/text.html:41
 #, read-only
@@ -5797,7 +5797,7 @@ msgstr "Description"
 #: pretalx/orga/templates/orga/cfp/text.html:140
 #, read-only
 msgid "Additional speakers"
-msgstr "Additional speakers"
+msgstr "Additional teachers"
 
 #: pretalx/orga/templates/orga/cfp/text.html:146
 #: pretalx/orga/templates/orga/submission/review.html:98
@@ -5839,7 +5839,7 @@ msgid ""
 "schedule."
 msgstr ""
 "Tracks are used to sort your sessions into categories. You can use the CfP "
-"settings to determine if speakers can select the track for their session "
+"settings to determine if teachers can select the track for their session "
 "themselves. Track colors are helpful to help attendees navigate your "
 "schedule."
 
@@ -6049,13 +6049,13 @@ msgstr "Schedule update"
 #: pretalx/orga/templates/orga/speaker/list.html:59
 #, read-only
 msgid "Mark speaker as not arrived"
-msgstr "Mark speaker as not arrived"
+msgstr "Mark teacher as not arrived"
 
 #: pretalx/orga/templates/orga/includes/mark_speakers_arrived.html:9
 #: pretalx/orga/templates/orga/speaker/list.html:61
 #, read-only
 msgid "Mark speaker as arrived"
-msgstr "Mark speaker as arrived"
+msgstr "Mark teacher as arrived"
 
 #: pretalx/orga/templates/orga/includes/pagination.html:17
 #, python-format, read-only
@@ -6116,7 +6116,7 @@ msgid ""
 "href=\"%(domain)s\">%(domain)s</a>, please log in now. Otherwise, create a "
 "new account to join the team!"
 msgstr ""
-"If you already have an account – either as a speaker or an organiser – at <a "
+"If you already have an account – either as a teacher or an organiser – at <a "
 "href=\"%(domain)s\">%(domain)s</a>, please log in now. Otherwise, create a "
 "new account to join the team!"
 
@@ -6217,7 +6217,7 @@ msgstr "Send emails"
 #: pretalx/orga/templates/orga/mails/compose_session_mail_form.html:6
 #, read-only
 msgid "Sessions, proposals, speakers"
-msgstr "Sessions, proposals, speakers"
+msgstr "Sessions, proposals, teachers"
 
 #: pretalx/orga/templates/orga/mails/compose_choice.html:15
 #, read-only
@@ -6225,7 +6225,7 @@ msgid ""
 "Send an email to speakers, authors, submitters, based on their proposal "
 "status and other filters."
 msgstr ""
-"Send an email to speakers, authors, submitters, based on their proposal "
+"Send an email to teachers, authors, submitters, based on their proposal "
 "status and other filters."
 
 #: pretalx/orga/templates/orga/mails/compose_choice.html:19
@@ -6274,7 +6274,7 @@ msgid ""
 "tab."
 msgstr ""
 "You can edit the default templates and your custom templates for emails "
-"here. If you want to send emails to some or all of your speakers, head over "
+"here. If you want to send emails to some or all of your teachers, head over "
 "to the \"Send Emails\" tab. Mails queued for sending are in the \"Outbox\" "
 "tab."
 
@@ -6452,8 +6452,8 @@ msgstr "There are no organisers you can edit."
 #, read-only
 msgid "speaker"
 msgid_plural "speakers"
-msgstr[0] "speaker"
-msgstr[1] "speakers"
+msgstr[0] "teacher"
+msgstr[1] "teachers"
 
 #: pretalx/orga/templates/orga/organiser/speaker_list.html:46
 #: pretalx/orga/templates/orga/speaker/list.html:39
@@ -6939,7 +6939,7 @@ msgstr ""
 #: pretalx/orga/templates/orga/schedule/export.html:56
 #, read-only
 msgid "Speaker exports"
-msgstr "Speaker exports"
+msgstr "Teacher exports"
 
 #: pretalx/orga/templates/orga/schedule/export.html:59
 #, read-only
@@ -7024,7 +7024,7 @@ msgstr "Print cards"
 #: pretalx/orga/templates/orga/schedule/index.html:61
 #, read-only
 msgid "Resend speaker notifications"
-msgstr "Resend speaker notifications"
+msgstr "Resend teacher notifications"
 
 #: pretalx/orga/templates/orga/schedule/index.html:70
 #, read-only
@@ -7083,11 +7083,11 @@ msgid_plural ""
 "their session slots."
 msgstr[0] ""
 "When releasing this new schedule, <strong>one notifications email </strong> "
-"can be generated and placed in the outbox, to tell speakers about their "
+"can be generated and placed in the outbox, to tell teachers about their "
 "session slots."
 msgstr[1] ""
 "When releasing this new schedule, <strong>%(count)s notifications emails </"
-"strong> can be generated and placed in the outbox, to tell speakers about "
+"strong> can be generated and placed in the outbox, to tell teachers about "
 "their session slots."
 
 #: pretalx/orga/templates/orga/schedule/release.html:51
@@ -7102,7 +7102,7 @@ msgid ""
 "strong> for speakers."
 msgstr ""
 "This schedule release would result in <strong>no notification emails</"
-"strong> for speakers."
+"strong> for teachers."
 
 #: pretalx/orga/templates/orga/schedule/release.html:60
 #, python-format, read-only
@@ -7213,7 +7213,7 @@ msgid ""
 "here."
 msgstr ""
 "These links will be shown at the top of all your schedule-related pages, "
-"e.g. the schedule itself, speaker pages, session pages, etc. You could for "
+"e.g. the schedule itself, teacher pages, session pages, etc. You could for "
 "example link to your home page, your registration page, or your livestream "
 "here."
 
@@ -7430,7 +7430,7 @@ msgstr ""
 #: pretalx/orga/templates/orga/speaker/export.html:9
 #, read-only
 msgid "Export speaker data"
-msgstr "Export speaker data"
+msgstr "Export teacher data"
 
 #: pretalx/orga/templates/orga/speaker/export.html:64
 #, read-only
@@ -7461,7 +7461,7 @@ msgstr "Emails"
 #: pretalx/orga/templates/orga/speaker/form.html:106
 #, read-only
 msgid "No mails were sent to this speaker yet."
-msgstr "No mails were sent to this speaker yet."
+msgstr "No mails were sent to this teacher yet."
 
 #: pretalx/orga/templates/orga/speaker/information_form.html:5
 #: pretalx/orga/templates/orga/speaker/information_form.html:9
@@ -7471,8 +7471,8 @@ msgstr "No mails were sent to this speaker yet."
 #, read-only
 msgid "Speaker Information Note"
 msgid_plural "Speaker Information Notes"
-msgstr[0] "Speaker Information Note"
-msgstr[1] "Speaker Information Notes"
+msgstr[0] "Teacher Information Note"
+msgstr[1] "Teacher Information Notes"
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:35
 #, read-only
@@ -7483,7 +7483,7 @@ msgid ""
 msgstr ""
 "Add important messages (e.g. “Please bring an HDMI adapter if required.”) or "
 "files (e.g. a conference styleguide). <br> They are shown to the selected "
-"speakers above the list of their submitted sessions."
+"teachers above the list of their submitted sessions."
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:45
 #, read-only
@@ -7512,7 +7512,7 @@ msgstr "Not arrived"
 #: pretalx/orga/templates/orga/speaker/speakerinformation/list.html:6
 #, read-only
 msgid "New speaker information"
-msgstr "New speaker information"
+msgstr "New teacher information"
 
 #: pretalx/orga/templates/orga/speaker/speakerinformation/list.html:23
 #, read-only
@@ -7528,13 +7528,13 @@ msgstr "All submitters"
 #: pretalx/person/models/information.py:31
 #, read-only
 msgid "All accepted speakers"
-msgstr "All accepted speakers"
+msgstr "All accepted teachers"
 
 #: pretalx/orga/templates/orga/speaker/speakerinformation/list.html:43
 #: pretalx/person/models/information.py:32
 #, read-only
 msgid "Only confirmed speakers"
-msgstr "Only confirmed speakers"
+msgstr "Only confirmed teachers"
 
 #: pretalx/orga/templates/orga/speaker/speakerinformation/list.html:53
 #, read-only
@@ -7616,7 +7616,7 @@ msgstr "Comments"
 #: pretalx/orga/templates/orga/submission/base.html:102
 #, read-only
 msgid "Send email to speakers"
-msgstr "Send email to speakers"
+msgstr "Send email to teachers"
 
 #: pretalx/orga/templates/orga/submission/base.html:114
 #, read-only
@@ -7774,12 +7774,12 @@ msgstr "Delete review"
 #: pretalx/orga/templates/orga/submission/speakers.html:25
 #, read-only
 msgid "Add speaker"
-msgstr "Add speaker"
+msgstr "Add teacher"
 
 #: pretalx/orga/templates/orga/submission/speakers.html:52
 #, read-only
 msgid "Other proposals by this speaker:"
-msgstr "Other proposals by this speaker:"
+msgstr "Other proposals by this teacher:"
 
 #: pretalx/orga/templates/orga/submission/speakers.html:79
 #, read-only
@@ -8259,7 +8259,7 @@ msgid ""
 "ALL related data, such as proposals, and speaker profiles, and uploads, will "
 "also be deleted and cannot be restored."
 msgstr ""
-"ALL related data, such as proposals, and speaker profiles, and uploads, will "
+"ALL related data, such as proposals, and teacher profiles, and uploads, will "
 "also be deleted and cannot be restored."
 
 #: pretalx/orga/views/mails.py:131
@@ -8442,7 +8442,7 @@ msgid ""
 "ALL related data for ALL events, such as proposals, and speaker profiles, "
 "and uploads, will also be deleted and cannot be restored."
 msgstr ""
-"ALL related data for ALL events, such as proposals, and speaker profiles, "
+"ALL related data for ALL events, such as proposals, and teacher profiles, "
 "and uploads, will also be deleted and cannot be restored."
 
 #: pretalx/orga/views/organiser.py:351
@@ -8619,7 +8619,7 @@ msgstr "There is or was a session scheduled in this room. It cannot be deleted."
 #: pretalx/orga/views/speaker.py:286
 #, ignore-reused, read-only
 msgid "Speaker Information Notes"
-msgstr "Speaker Information Notes"
+msgstr "Teacher Information Notes"
 
 #: pretalx/orga/views/submission.py:173
 #, read-only
@@ -8642,17 +8642,17 @@ msgstr ""
 #: pretalx/orga/views/submission.py:243
 #, read-only
 msgid "The speaker has been removed from the proposal."
-msgstr "The speaker has been removed from the proposal."
+msgstr "The teacher has been removed from the proposal."
 
 #: pretalx/orga/views/submission.py:246
 #, read-only
 msgid "The speaker was not part of this proposal."
-msgstr "The speaker was not part of this proposal."
+msgstr "The teacher was not part of this proposal."
 
 #: pretalx/orga/views/submission.py:279
 #, read-only
 msgid "The speaker has been added to the proposal."
-msgstr "The speaker has been added to the proposal."
+msgstr "The teacher has been added to the proposal."
 
 #: pretalx/orga/views/submission.py:475
 #, read-only
@@ -8711,7 +8711,7 @@ msgstr "Changed {count} proposal states."
 #: pretalx/person/exporters.py:16
 #, read-only
 msgid "Speaker CSV"
-msgstr "Speaker CSV"
+msgstr "Teacher CSV"
 
 #: pretalx/person/forms/auth.py:10
 #: pretalx/person/forms/profile.py:41
@@ -8857,7 +8857,7 @@ msgstr "Please try to keep your upload small, preferably below 16 MB."
 #: pretalx/person/models/profile.py:45
 #, read-only
 msgid "The speaker has arrived"
-msgstr "The speaker has arrived"
+msgstr "The teacher has arrived"
 
 #: pretalx/person/models/user.py:86
 #, read-only
@@ -8978,7 +8978,7 @@ msgstr "[pretalx] Password changed"
 #: pretalx/schedule/ascii.py:24
 #, read-only
 msgid "No speakers"
-msgstr "No speakers"
+msgstr "No teachers"
 
 #: pretalx/schedule/exporters.py:293
 #, read-only
@@ -9012,7 +9012,7 @@ msgid ""
 "If you set room availabilities, speakers will only be able to set their "
 "availability for when any room is available."
 msgstr ""
-"If you set room availabilities, speakers will only be able to set their "
+"If you set room availabilities, teachers will only be able to set their "
 "availability for when any room is available."
 
 #: pretalx/schedule/forms.py:115
@@ -9045,7 +9045,7 @@ msgstr ""
 #: pretalx/schedule/forms.py:214
 #, read-only
 msgid "Information for speakers, e.g.: Projector has only HDMI input."
-msgstr "Information for speakers, e.g.: Projector has only HDMI input."
+msgstr "Information for teachers, e.g.: Projector has only HDMI input."
 
 #: pretalx/schedule/forms.py:219
 #, python-brace-format, read-only
@@ -9073,7 +9073,7 @@ msgid ""
 "Information relevant for speakers scheduled in this room, for example room "
 "size, special directions, available adaptors for video input …"
 msgstr ""
-"Information relevant for speakers scheduled in this room, for example room "
+"Information relevant for teachers scheduled in this room, for example room "
 "size, special directions, available adaptors for video input …"
 
 #: pretalx/schedule/models/room.py:58
@@ -9290,7 +9290,7 @@ msgstr "Custom fields data"
 #: pretalx/submission/exporters.py:18
 #, ignore-reused, read-only
 msgid "speakers"
-msgstr "speakers"
+msgstr "teachers"
 
 #: pretalx/submission/exporters.py:63
 #, ignore-reused, read-only
@@ -9300,7 +9300,7 @@ msgstr "submissions"
 #: pretalx/submission/forms/feedback.py:18
 #, read-only
 msgid "All speakers"
-msgstr "All speakers"
+msgstr "All teachers"
 
 #: pretalx/submission/forms/resource.py:29
 #, read-only
@@ -9315,7 +9315,7 @@ msgstr "Please provide a link or upload a file!"
 #: pretalx/submission/forms/submission.py:31
 #, read-only
 msgid "Additional Speaker"
-msgstr "Additional Speaker"
+msgstr "Additional Teacher"
 
 #: pretalx/submission/forms/submission.py:33
 #, read-only
@@ -9324,9 +9324,9 @@ msgid ""
 "invite them to create an account. If you have more than one co-speaker, you "
 "can add more speakers after finishing the proposal process."
 msgstr ""
-"If you have a co-speaker, please add their email address here, and we will "
-"invite them to create an account. If you have more than one co-speaker, you "
-"can add more speakers after finishing the proposal process."
+"If you have a co-teacher, please add their email address here, and we will "
+"invite them to create an account. If you have more than one co-teacher, you "
+"can add more teachers after finishing the proposal process."
 
 #: pretalx/submission/forms/submission.py:40
 #: pretalx/submission/models/submission.py:280
@@ -9489,7 +9489,7 @@ msgstr "per proposal"
 #: pretalx/submission/models/question.py:72
 #, read-only
 msgid "per speaker"
-msgstr "per speaker"
+msgstr "per teacher"
 
 #: pretalx/submission/models/question.py:73
 #, read-only
@@ -9519,7 +9519,7 @@ msgstr "Field type"
 #: pretalx/submission/models/question.py:143
 #, read-only
 msgid "Do you require an answer from every speaker or for every session?"
-msgstr "Do you require an answer from every speaker or for every session?"
+msgstr "Do you require an answer from every teacher or for every session?"
 
 #: pretalx/submission/models/question.py:150
 #, read-only
@@ -9649,9 +9649,9 @@ msgid ""
 "note that you cannot make a field public after the first answers have been "
 "given, to allow speakers explicit consent before publishing information."
 msgstr ""
-"Responses will be shown on session or speaker pages as appropriate. Please "
+"Responses will be shown on session or teacher pages as appropriate. Please "
 "note that you cannot make a field public after the first answers have been "
-"given, to allow speakers explicit consent before publishing information."
+"given, to allow teachers explicit consent before publishing information."
 
 #: pretalx/submission/models/question.py:267
 #, read-only
@@ -9752,7 +9752,7 @@ msgstr "After reviewing the proposal"
 #: pretalx/submission/models/review.py:261
 #, read-only
 msgid "Reviewers can see speaker names"
-msgstr "Reviewers can see speaker names"
+msgstr "Reviewers can see teacher names"
 
 #: pretalx/submission/models/review.py:265
 #, read-only
@@ -9782,7 +9782,7 @@ msgstr "Add, remove and create tags"
 #: pretalx/submission/models/review.py:283
 #, read-only
 msgid "Speakers can modify their proposals before acceptance"
-msgstr "Speakers can modify their proposals before acceptance"
+msgstr "Teachers can modify their proposals before acceptance"
 
 #: pretalx/submission/models/review.py:285
 #, read-only
@@ -9840,7 +9840,7 @@ msgid ""
 "Internal notes for other organisers/reviewers. Not visible to the speakers "
 "or the public."
 msgstr ""
-"Internal notes for other organisers/reviewers. Not visible to the speakers "
+"Internal notes for other organisers/reviewers. Not visible to the teachers "
 "or the public."
 
 #: pretalx/submission/models/submission.py:255
@@ -10028,7 +10028,7 @@ msgstr "With rejected proposals"
 #: pretalx/orga/templates/orga/cfp/text.html:175
 #, read-only
 msgid "Speaker information"
-msgstr "Speaker information"
+msgstr "Teacher information"
 
 #: pretalx/orga/views/person.py:94
 #, read-only
@@ -10057,7 +10057,7 @@ msgid ""
 "speakers in one session)?"
 msgstr ""
 "How do you want to separate data within a single cell (for example, multiple "
-"speakers in one session)?"
+"teachers in one session)?"
 
 #: pretalx/orga/templates/orga/user.html:36
 #, python-format, read-only
