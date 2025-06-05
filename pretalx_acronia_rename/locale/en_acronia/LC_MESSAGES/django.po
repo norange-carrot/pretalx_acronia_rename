@@ -27,7 +27,7 @@ msgstr "Thanks, we (and our teachers) appreciate your feedback!"
 #: pretalx/agenda/phrases.py:11
 #, read-only
 msgid "This session will not be recorded."
-msgstr "This session will not be recorded."
+msgstr "This workshop will not be recorded."
 
 #: pretalx/agenda/phrases.py:13
 #, read-only
@@ -52,22 +52,22 @@ msgstr "This schedule-related page is non-public. Only organisers can see it."
 #: pretalx/agenda/templates/agenda/changelog_block.html:14
 #, read-only
 msgid "We have new sessions!"
-msgstr "We have new sessions!"
+msgstr "We have new workshops!"
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:24
 #, read-only
 msgid "We have a new session: "
-msgstr "We have a new session: "
+msgstr "We have a new workshop: "
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:34
 #, read-only
 msgid "Sadly, we had to cancel sessions:"
-msgstr "Sadly, we had to cancel sessions:"
+msgstr "Sadly, we had to cancel workshops:"
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:42
 #, read-only
 msgid "We sadly had to cancel a session: "
-msgstr "We sadly had to cancel a session: "
+msgstr "We sadly had to cancel a workshop: "
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:51
 #, read-only
@@ -75,18 +75,18 @@ msgid ""
 "We had to move some sessions, so if you were planning on seeing them, check "
 "their new dates or locations:"
 msgstr ""
-"We had to move some sessions, so if you were planning on seeing them, check "
+"We had to move some workshops, so if you were planning on seeing them, check "
 "their new dates or locations:"
 
 #: pretalx/agenda/templates/agenda/changelog_block.html:69
 #, read-only
 msgid "We have moved a session around: "
-msgstr "We have moved a session around: "
+msgstr "We have moved a workshop around: "
 
 #: pretalx/agenda/templates/agenda/featured.html:14
 #, read-only
 msgid "Welcome to our list of featured sessions!"
-msgstr "Welcome to our list of featured sessions!"
+msgstr "Welcome to our list of featured workshops!"
 
 #: pretalx/agenda/templates/agenda/featured.html:17
 #, read-only
@@ -95,7 +95,7 @@ msgid ""
 "conference. Please keep in mind that this is not our full schedule. We will "
 "follow up with the full schedule in time, stay tuned!"
 msgstr ""
-"We prepared a list of exciting sessions, so you can get a feel for our "
+"We prepared a list of exciting workshops, so you can get a feel for our "
 "conference. Please keep in mind that this is not our full schedule. We will "
 "follow up with the full schedule in time, stay tuned!"
 
@@ -105,7 +105,7 @@ msgid ""
 "In the near future you will see a curated list of sessions we’d like to show "
 "off here. Right now we are busy reviewing proposals.<br> Check back later!"
 msgstr ""
-"In the near future you will see a curated list of sessions we’d like to show "
+"In the near future you will see a curated list of workshops we’d like to show "
 "off here. Right now we are busy reviewing proposals.<br> Check back later!"
 
 #: pretalx/agenda/templates/agenda/feed/description.html:5
@@ -133,7 +133,7 @@ msgstr "Feedback"
 msgid ""
 "This review is for you personally, not for all speakers in this session."
 msgstr ""
-"This review is for you personally, not for all teachers in this session."
+"This review is for you personally, not for all teachers in this workshop."
 
 #: pretalx/agenda/templates/agenda/feedback_form.html:17
 #, read-only
@@ -149,7 +149,7 @@ msgstr ""
 #: pretalx/agenda/templates/agenda/feedback_form.html:24
 #, read-only
 msgid "You can’t give feedback for this session at this time."
-msgstr "You can’t give feedback for this session at this time."
+msgstr "You can’t give feedback for this workshop at this time."
 
 #: pretalx/agenda/templates/agenda/schedule.html:23
 #, read-only
@@ -179,7 +179,7 @@ msgstr ""
 #: pretalx/agenda/templates/agenda/schedule_nojs.html:77
 #, python-format, read-only
 msgid "No sessions on %(weekday)s, %(current_day)s."
-msgstr "No sessions on %(weekday)s, %(current_day)s."
+msgstr "No workshops on %(weekday)s, %(current_day)s."
 
 #: pretalx/agenda/templates/agenda/session_block.html:12
 #, python-format, read-only
@@ -205,17 +205,17 @@ msgstr[1] "Workshops"
 #: pretalx/agenda/templates/agenda/talk.html:48
 #, read-only
 msgid "Favourite this session"
-msgstr "Favourite this session"
+msgstr "Favourite this workshop"
 
 #: pretalx/agenda/templates/agenda/talk.html:49
 #, read-only
 msgid "Remove this session from your favourites"
-msgstr "Remove this session from your favourites"
+msgstr "Remove this workshop from your favourites"
 
 #: pretalx/agenda/templates/agenda/talk.html:100
 #, read-only
 msgid "This session’s header image"
-msgstr "This session’s header image"
+msgstr "This workshop’s header image"
 
 #: pretalx/agenda/templates/agenda/talk.html:137
 #, read-only
@@ -249,7 +249,7 @@ msgstr "Your favourites could only be saved locally in your browser."
 #: pretalx/agenda/views/talk.py:126
 #, python-brace-format, read-only
 msgid "The session “{title}” at {event}"
-msgstr "The session “{title}” at {event}"
+msgstr "The workshop “{title}” at {event}"
 
 #: pretalx/api/templates/rest_framework/api.html:18
 #: pretalx/orga/templates/orga/auth/base.html:29
@@ -351,7 +351,7 @@ msgid ""
 "This information will be publicly displayed next to your session - you can "
 "always edit for as long as proposals are still open."
 msgstr ""
-"This information will be publicly displayed next to your session - you can "
+"This information will be publicly displayed next to your workshop - you can "
 "always edit for as long as proposals are still open."
 
 #: pretalx/cfp/phrases.py:7
@@ -403,7 +403,7 @@ msgstr ""
 #: pretalx/cfp/phrases.py:24
 #, read-only
 msgid "Your session has been confirmed – we’re looking forward to seeing you!"
-msgstr "Your session has been confirmed – we’re looking forward to seeing you!"
+msgstr "Your workshop has been confirmed – we’re looking forward to seeing you!"
 
 #: pretalx/cfp/phrases.py:27
 #, read-only
@@ -436,7 +436,7 @@ msgstr "Teacher email"
 #: pretalx/cfp/phrases.py:35
 #, python-brace-format, read-only
 msgid "{speaker} invites you to join their session!"
-msgstr "{speaker} invites you to join their session!"
+msgstr "{speaker} invites you to join their workshop!"
 
 #: pretalx/cfp/phrases.py:37
 #, python-brace-format, read-only
@@ -456,7 +456,7 @@ msgid ""
 msgstr ""
 "Hi!\n"
 "\n"
-"I’d like to invite you to be a teacher in the session\n"
+"I’d like to invite you to be a teacher in the workshop\n"
 "\n"
 "  “{title}”\n"
 "\n"
@@ -488,7 +488,7 @@ msgid ""
 "We are experiencing difficulties when sending mails, but your session was "
 "submitted successfully!"
 msgstr ""
-"We are experiencing difficulties when sending mails, but your session was "
+"We are experiencing difficulties when sending mails, but your workshop was "
 "submitted successfully!"
 
 #: pretalx/cfp/phrases.py:60
@@ -580,7 +580,7 @@ msgid ""
 "You, %(name)s, have been invited to be a speaker for the session “%(talk)s”. "
 "Do you accept the invitation?"
 msgstr ""
-"You, %(name)s, have been invited to be a teacher for the session “%(talk)s”. "
+"You, %(name)s, have been invited to be a teacher for the workshop “%(talk)s”. "
 "Do you accept the invitation?"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:34
@@ -774,7 +774,7 @@ msgid ""
 "sessions, and overriding my public and private data."
 msgstr ""
 "I really do want to delete my account, losing access to my proposals and "
-"sessions, and overriding my public and private data."
+"workshops, and overriding my public and private data."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:106
 #, read-only
@@ -858,7 +858,7 @@ msgstr "Audience feedback"
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:37
 #, read-only
 msgid "Attendees can leave feedback here after your session has taken place."
-msgstr "Attendees can leave feedback here after your session has taken place."
+msgstr "Attendees can leave feedback here after your workshop has taken place."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:47
 #: pretalx/orga/templates/orga/submission/content.html:46
@@ -914,7 +914,7 @@ msgid ""
 msgstr ""
 "You can withdraw your proposal from the selection process here. You cannot "
 "undo this - if you are just uncertain if you can or should hold your "
-"session, please contact the organiser instead."
+"workshop, please contact the organiser instead."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:125
 #, read-only
@@ -1600,22 +1600,22 @@ msgstr "A proposal comment was deleted."
 #: pretalx/common/log_display.py:111
 #, read-only
 msgid "A session type was added."
-msgstr "A session type was added."
+msgstr "A workshop type was added."
 
 #: pretalx/common/log_display.py:112
 #, read-only
 msgid "A session type was deleted."
-msgstr "A session type was deleted."
+msgstr "A workshop type was deleted."
 
 #: pretalx/common/log_display.py:113
 #, read-only
 msgid "The session type was made default."
-msgstr "The session type was made default."
+msgstr "The workshop type was made default."
 
 #: pretalx/common/log_display.py:114
 #, read-only
 msgid "A session type was modified."
-msgstr "A session type was modified."
+msgstr "A workshop type was modified."
 
 #: pretalx/common/log_display.py:115
 #, read-only
@@ -1852,7 +1852,7 @@ msgstr ""
 "statistics you might find interesting:\n"
 "\n"
 "- You had {submission_count} proposals,\n"
-"- Of which you selected {talk_count} sessions.\n"
+"- Of which you selected {talk_count} workshops.\n"
 "- The reviewers wrote {review_count} reviews.\n"
 "- You released {schedule_count} schedules in total.\n"
 "- Over the course of the event, you sent {mail_count} mails.\n"
@@ -2511,7 +2511,7 @@ msgid ""
 "deadline."
 msgstr ""
 "The default deadline for your Call for Papers. You can assign additional "
-"deadlines to individual session types, which will take precedence over this "
+"deadlines to individual workshop types, which will take precedence over this "
 "deadline."
 
 #: pretalx/event/forms.py:311
@@ -2528,7 +2528,7 @@ msgid ""
 "event has been created!"
 msgstr ""
 "You can copy settings from previous events here, such as mail settings, "
-"session types, and email templates. Please check those settings once the "
+"workshop types, and email templates. Please check those settings once the "
 "event has been created!"
 
 #: pretalx/event/forms.py:318
@@ -2697,7 +2697,7 @@ msgstr ""
 #: pretalx/event/models/event.py:272
 #, read-only
 msgid "Featured sessions text"
-msgstr "Featured sessions text"
+msgstr "Featured workshops text"
 
 #: pretalx/event/models/event.py:274
 #, read-only
@@ -2705,7 +2705,7 @@ msgid ""
 "This text will be shown at the top of the featured sessions page instead of "
 "the default text."
 msgstr ""
-"This text will be shown at the top of the featured sessions page instead of "
+"This text will be shown at the top of the featured workshops page instead of "
 "the default text."
 
 #: pretalx/event/models/event.py:281
@@ -2998,7 +2998,7 @@ msgstr "Monitor proposals"
 #: pretalx/event/stages.py:63
 #, read-only
 msgid "Submit sessions for your speakers"
-msgstr "Submit sessions for your teachers"
+msgstr "Submit workshops for your teachers"
 
 #: pretalx/event/stages.py:66
 #, read-only
@@ -3053,7 +3053,7 @@ msgstr "Monitor incoming feedback"
 #: pretalx/event/stages.py:112
 #, read-only
 msgid "Embed session recordings if available"
-msgstr "Embed session recordings if available"
+msgstr "Embed workshop recordings if available"
 
 #: pretalx/event/stages.py:113
 #, read-only
@@ -3143,7 +3143,7 @@ msgstr "Workshop Type A"
 #: pretalx/mail/context.py:211
 #, read-only
 msgid "The proposal’s session type"
-msgstr "The proposal’s session type"
+msgstr "The proposal’s workshop type"
 
 #: pretalx/mail/context.py:217
 #, read-only
@@ -3158,7 +3158,7 @@ msgstr "The track the proposal belongs to"
 #: pretalx/mail/context.py:225
 #, read-only
 msgid "The session’s duration in minutes"
-msgstr "The session’s duration in minutes"
+msgstr "The workshop’s duration in minutes"
 
 #: pretalx/mail/context.py:232
 #, read-only
@@ -3183,22 +3183,22 @@ msgstr "All review texts for this proposal"
 #: pretalx/mail/context.py:241
 #, read-only
 msgid "The session’s start date"
-msgstr "The session’s start date"
+msgstr "The workshop’s start date"
 
 #: pretalx/mail/context.py:248
 #, read-only
 msgid "The session’s start time"
-msgstr "The session’s start time"
+msgstr "The workshop’s start time"
 
 #: pretalx/mail/context.py:255
 #, read-only
 msgid "The session’s end date"
-msgstr "The session’s end date"
+msgstr "The workshop’s end date"
 
 #: pretalx/mail/context.py:262
 #, read-only
 msgid "The session’s end time"
-msgstr "The session’s end time"
+msgstr "The workshop’s end time"
 
 #: pretalx/mail/context.py:268
 #, read-only
@@ -3208,7 +3208,7 @@ msgstr "Room 101"
 #: pretalx/mail/context.py:269
 #, read-only
 msgid "The session’s room"
-msgstr "The session’s room"
+msgstr "The workshop’s room"
 
 #: pretalx/mail/context.py:275
 #, read-only
@@ -3231,8 +3231,8 @@ msgid ""
 "- Your session “Title” will take place at {time} in Room 101.\n"
 "- Your session “Other Title” has been moved to {time2} in Room 102."
 msgstr ""
-"- Your session “Title” will take place at {time} in Room 101.\n"
-"- Your session “Other Title” has been moved to {time2} in Room 102."
+"- Your workshop “Title” will take place at {time} in Room 101.\n"
+"- Your workshop “Other Title” has been moved to {time2} in Room 102."
 
 #: pretalx/mail/context.py:298
 #, read-only
@@ -3247,13 +3247,13 @@ msgid ""
 "- Your session “Title” will take place at {time} in Room 101.\n"
 "- Your session “Other Title” will take place at {time2} in Room 102."
 msgstr ""
-"- Your session “Title” will take place at {time} in Room 101.\n"
-"- Your session “Other Title” will take place at {time2} in Room 102."
+"- Your workshop “Title” will take place at {time} in Room 101.\n"
+"- Your workshop “Other Title” will take place at {time2} in Room 102."
 
 #: pretalx/mail/context.py:312
 #, read-only
 msgid "A list of time and place for this user’s publicly visible sessions."
-msgstr "A list of time and place for this user’s publicly visible sessions."
+msgstr "A list of time and place for this user’s publicly visible workshops."
 
 #: pretalx/mail/default_templates.py:4
 #, python-brace-format, read-only
@@ -3369,7 +3369,7 @@ msgstr ""
 "{speaker_schedule_new}\n"
 "\n"
 "We look forward to seeing you, and please contact us if there is any problem "
-"with your session or assigned slot.\n"
+"with your workshop or assigned slot.\n"
 "\n"
 "The {event_name} organisers"
 
@@ -3669,7 +3669,7 @@ msgstr "Use tracks"
 #: pretalx/orga/forms/cfp.py:41
 #, read-only
 msgid "Do you organise your sessions by tracks?"
-msgstr "Do you organise your sessions by tracks?"
+msgstr "Do you organise your workshops by tracks?"
 
 #: pretalx/orga/forms/cfp.py:44
 #: pretalx/submission/models/submission.py:259
@@ -3680,7 +3680,7 @@ msgstr "Slot Count"
 #: pretalx/orga/forms/cfp.py:46
 #, read-only
 msgid "Can sessions be held multiple times?"
-msgstr "Can sessions be held multiple times?"
+msgstr "Can workshops be held multiple times?"
 
 #: pretalx/orga/forms/cfp.py:49
 #, read-only
@@ -3807,7 +3807,7 @@ msgstr "You cannot replace options without uploading new ones."
 #: pretalx/orga/forms/cfp.py:360
 #, read-only
 msgid "You already have a session type by this name!"
-msgstr "You already have a session type by this name!"
+msgstr "You already have a workshop type by this name!"
 
 #: pretalx/orga/forms/cfp.py:375
 #: pretalx/orga/forms/submission.py:207
@@ -3975,7 +3975,7 @@ msgstr ""
 #: pretalx/orga/forms/event.py:102
 #, read-only
 msgid "Show featured sessions"
-msgstr "Show featured sessions"
+msgstr "Show featured workshops"
 
 #: pretalx/orga/forms/event.py:104
 #: pretalx/submission/models/review.py:255
@@ -4001,7 +4001,7 @@ msgid ""
 "Marking sessions as “featured” is a good way to show them before the first "
 "schedule release, or to highlight them once the schedule is visible."
 msgstr ""
-"Marking sessions as “featured” is a good way to show them before the first "
+"Marking workshops as “featured” is a good way to show them before the first "
 "schedule release, or to highlight them once the schedule is visible."
 
 #: pretalx/orga/forms/event.py:114
@@ -4012,7 +4012,7 @@ msgstr "Enable anonymous feedback"
 #: pretalx/orga/forms/event.py:116
 #, read-only
 msgid "Attendees will be able to send in feedback after a session is over."
-msgstr "Attendees will be able to send in feedback after a session is over."
+msgstr "Attendees will be able to send in feedback after a workshop is over."
 
 #: pretalx/orga/forms/event.py:121
 #, read-only
@@ -4075,7 +4075,7 @@ msgid ""
 "event dates. You will have to release a new schedule version to notify all "
 "speakers."
 msgstr ""
-"Any sessions you have scheduled already will be moved if you change the "
+"Any workshops you have scheduled already will be moved if you change the "
 "event dates. You will have to release a new schedule version to notify all "
 "teachers."
 
@@ -4392,7 +4392,7 @@ msgid ""
 "speakers in one session/multiple sessions for one speaker)?"
 msgstr ""
 "How do you want to separate data within a single cell (for example, multiple "
-"teachers in one session/multiple sessions for one teacher)?"
+"teachers in one workshop/multiple workshops for one teacher)?"
 
 #: pretalx/orga/forms/export.py:34
 #, read-only
@@ -4732,7 +4732,7 @@ msgstr "Proposal state"
 #: pretalx/submission/forms/submission.py:151
 #, read-only
 msgid "Leave empty to use the default duration for the session type."
-msgstr "Leave empty to use the default duration for the session type."
+msgstr "Leave empty to use the default duration for the workshop type."
 
 #: pretalx/orga/forms/submission.py:147
 #, read-only
@@ -4763,7 +4763,7 @@ msgid ""
 "The email address of the speaker holding the session. They will be invited "
 "to create an account."
 msgstr ""
-"The email address of the teacher holding the session. They will be invited "
+"The email address of the teacher holding the workshop. They will be invited "
 "to create an account."
 
 #: pretalx/orga/forms/submission.py:287
@@ -5621,8 +5621,8 @@ msgid ""
 "lengths (short sessions vs long sessions) or different presentation formats ("
 "talk vs workshop vs metal concert)."
 msgstr ""
-"Different session types may help to guide teachers into different slot "
-"lengths (short sessions vs long sessions) or different presentation formats ("
+"Different workshop types may help to guide teachers into different slot "
+"lengths (short workshops vs long workshops) or different presentation formats ("
 "talk vs workshop vs metal concert)."
 
 #: pretalx/orga/templates/orga/cfp/submissiontype/list.html:44
@@ -5663,7 +5663,7 @@ msgid ""
 "be seen with a matching access code."
 msgstr ""
 "Access codes can be used to allow proposals even when the CfP is over. You "
-"can also use them for hidden tracks or hidden session types, which can only "
+"can also use them for hidden tracks or hidden workshop types, which can only "
 "be seen with a matching access code."
 
 #: pretalx/orga/templates/orga/cfp/submitteraccesscode/list.html:45
@@ -5704,7 +5704,7 @@ msgstr ""
 #: pretalx/orga/templates/orga/cfp/text.html:35
 #, read-only
 msgid "The formats (sessions, workshops, panels) and their durations"
-msgstr "The formats (sessions, workshops, panels) and their durations"
+msgstr "The formats (workshops, panels) and their durations"
 
 #: pretalx/orga/templates/orga/cfp/text.html:36
 #, read-only
@@ -5743,7 +5743,7 @@ msgstr "Dates and location"
 #: pretalx/orga/templates/orga/cfp/text.html:60
 #, read-only
 msgid "Some of your session types have different deadlines:"
-msgstr "Some of your session types have different deadlines:"
+msgstr "Some of your workshop types have different deadlines:"
 
 #: pretalx/orga/templates/orga/cfp/text.html:86
 #, read-only
@@ -5838,8 +5838,8 @@ msgid ""
 "themselves. Track colors are helpful to help attendees navigate your "
 "schedule."
 msgstr ""
-"Tracks are used to sort your sessions into categories. You can use the CfP "
-"settings to determine if teachers can select the track for their session "
+"Tracks are used to sort your workshops into categories. You can use the CfP "
+"settings to determine if teachers can select the track for their workshop "
 "themselves. Track colors are helpful to help attendees navigate your "
 "schedule."
 
@@ -5859,7 +5859,7 @@ msgid ""
 "and you’re ready to go!"
 msgstr ""
 "Your event has been created and you’re ready to go! Check out the event "
-"settings, set up your Call for Papers with session types and custom fields, "
+"settings, set up your Call for Papers with workshop types and custom fields, "
 "and you’re ready to go!"
 
 #: pretalx/orga/templates/orga/event/dashboard.html:63
@@ -6933,7 +6933,7 @@ msgid ""
 "If you are looking for exports of proposals, sessions or schedule data, "
 "please head here:"
 msgstr ""
-"If you are looking for exports of proposals, sessions or schedule data, "
+"If you are looking for exports of proposals, workshops or schedule data, "
 "please head here:"
 
 #: pretalx/orga/templates/orga/schedule/export.html:56
@@ -7033,7 +7033,7 @@ msgid ""
 "sessions to take place in."
 msgstr ""
 "You can start planning your schedule once you have configured some rooms for "
-"sessions to take place in."
+"workshops to take place in."
 
 #: pretalx/orga/templates/orga/schedule/index.html:71
 #, read-only
@@ -7044,7 +7044,7 @@ msgstr "Configure rooms"
 #: pretalx/orga/templates/orga/schedule/quick.html:11
 #, read-only
 msgid "Schedule session"
-msgstr "Schedule session"
+msgstr "Schedule workshop"
 
 #: pretalx/orga/templates/orga/schedule/release.html:7
 #: pretalx/orga/templates/orga/schedule/release.html:14
@@ -7084,11 +7084,11 @@ msgid_plural ""
 msgstr[0] ""
 "When releasing this new schedule, <strong>one notifications email </strong> "
 "can be generated and placed in the outbox, to tell teachers about their "
-"session slots."
+"workshop slots."
 msgstr[1] ""
 "When releasing this new schedule, <strong>%(count)s notifications emails </"
 "strong> can be generated and placed in the outbox, to tell teachers about "
-"their session slots."
+"their workshop slots."
 
 #: pretalx/orga/templates/orga/schedule/release.html:51
 #, read-only
@@ -7113,30 +7113,30 @@ msgid_plural ""
 "%(count)s sessions are still <strong>unconfirmed</strong> and will not show "
 "up on the public schedule."
 msgstr[0] ""
-"One session is still <strong>unconfirmed</strong> and will not show up on "
+"One workshop is still <strong>unconfirmed</strong> and will not show up on "
 "the public schedule."
 msgstr[1] ""
-"%(count)s sessions are still <strong>unconfirmed</strong> and will not show "
+"%(count)s workshops are still <strong>unconfirmed</strong> and will not show "
 "up on the public schedule."
 
 #: pretalx/orga/templates/orga/schedule/release.html:66
 #, read-only
 msgid "See all unconfirmed sessions."
-msgstr "See all unconfirmed sessions."
+msgstr "See all unconfirmed workshops."
 
 #: pretalx/orga/templates/orga/schedule/release.html:69
 #, python-format, read-only
 msgid "One session has <strong>not yet been scheduled</strong>."
 msgid_plural "%(count)s sessions have <strong>not yet been scheduled</strong>."
-msgstr[0] "One session has <strong>not yet been scheduled</strong>."
-msgstr[1] "%(count)s sessions have <strong>not yet been scheduled</strong>."
+msgstr[0] "One workshop has <strong>not yet been scheduled</strong>."
+msgstr[1] "%(count)s workshops have <strong>not yet been scheduled</strong>."
 
 #: pretalx/orga/templates/orga/schedule/release.html:76
 #, python-format, read-only
 msgid "One session has <strong>not yet been assigned a track</strong>."
 msgid_plural "%(count)s sessions have <strong>not yet been assigned a track</strong>."
-msgstr[0] "One session has <strong>not yet been assigned a track</strong>."
-msgstr[1] "%(count)s sessions have <strong>not yet been assigned a track</strong>."
+msgstr[0] "One workshop has <strong>not yet been assigned a track</strong>."
+msgstr[1] "%(count)s workshops have <strong>not yet been assigned a track</strong>."
 
 #: pretalx/orga/templates/orga/schedule/release.html:92
 #, read-only
@@ -7182,7 +7182,7 @@ msgstr "Capacity"
 #: pretalx/orga/templates/orga/schedule/room/list.html:55
 #, read-only
 msgid "Please add at least one place in which sessions can take place."
-msgstr "Please add at least one place in which sessions can take place."
+msgstr "Please add at least one place in which workshops can take place."
 
 #: pretalx/orga/templates/orga/settings/form.html:59
 #, read-only
@@ -7213,7 +7213,7 @@ msgid ""
 "here."
 msgstr ""
 "These links will be shown at the top of all your schedule-related pages, "
-"e.g. the schedule itself, teacher pages, session pages, etc. You could for "
+"e.g. the schedule itself, teacher pages, workshop pages, etc. You could for "
 "example link to your home page, your registration page, or your livestream "
 "here."
 
@@ -7483,7 +7483,7 @@ msgid ""
 msgstr ""
 "Add important messages (e.g. “Please bring an HDMI adapter if required.”) or "
 "files (e.g. a conference styleguide). <br> They are shown to the selected "
-"teachers above the list of their submitted sessions."
+"teachers above the list of their submitted workshops."
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:45
 #, read-only
@@ -7544,7 +7544,7 @@ msgstr "All tracks"
 #: pretalx/orga/templates/orga/speaker/speakerinformation/list.html:63
 #, read-only
 msgid "All session types"
-msgstr "All session types"
+msgstr "All workshop types"
 
 #: pretalx/orga/templates/orga/submission/anonymise.html:9
 #: pretalx/orga/templates/orga/submission/base.html:70
@@ -7668,7 +7668,7 @@ msgstr "Attendee feedback"
 #: pretalx/orga/templates/orga/submission/feedbacks_list.html:30
 #, read-only
 msgid "There has been no feedback for sessions in this event yet."
-msgstr "There has been no feedback for sessions in this event yet."
+msgstr "There has been no feedback for workshops in this event yet."
 
 #: pretalx/orga/templates/orga/submission/list.html:17
 #: pretalx/orga/templates/orga/submission/list.html:53
@@ -7682,13 +7682,13 @@ msgstr "Proposal feed"
 #, read-only
 msgid "session"
 msgid_plural "sessions"
-msgstr[0] "session"
-msgstr[1] "sessions"
+msgstr[0] "workshop"
+msgstr[1] "workshops"
 
 #: pretalx/orga/templates/orga/submission/list.html:51
 #, read-only
 msgid "Add new session or proposal"
-msgstr "Add new session or proposal"
+msgstr "Add new workshop or proposal"
 
 #: pretalx/orga/templates/orga/submission/list.html:92
 #, read-only
@@ -7700,7 +7700,7 @@ msgstr "Featured"
 msgid ""
 "Show this session on the list of featured sessions, once it was accepted"
 msgstr ""
-"Show this session on the list of featured sessions, once it was accepted"
+"Show this workshop on the list of featured workshops, once it was accepted"
 
 #: pretalx/orga/templates/orga/submission/list.html:109
 #: pretalx/orga/templates/orga/submission/list.html:113
@@ -7711,7 +7711,7 @@ msgstr "anonymised"
 #: pretalx/orga/templates/orga/submission/list.html:147
 #, read-only
 msgid "Show this proposal in the list of featured sessions."
-msgstr "Show this proposal in the list of featured sessions."
+msgstr "Show this proposal in the list of featured workshops."
 
 #: pretalx/orga/templates/orga/submission/review.html:25
 #, read-only
@@ -7816,12 +7816,12 @@ msgstr "Total proposals"
 #: pretalx/orga/templates/orga/submission/stats.html:46
 #, read-only
 msgid "Proposals by session type"
-msgstr "Proposals by session type"
+msgstr "Proposals by workshop type"
 
 #: pretalx/orga/templates/orga/submission/stats.html:47
 #, read-only
 msgid "Sessions by session type"
-msgstr "Workshops by session type"
+msgstr "Workshops by workshop type"
 
 #: pretalx/orga/templates/orga/submission/stats.html:57
 #, read-only
@@ -8149,7 +8149,7 @@ msgstr ""
 #: pretalx/orga/views/event.py:183
 #, read-only
 msgid "You have configured only one session type so far."
-msgstr "You have configured only one session type so far."
+msgstr "You have configured only one workshop type so far."
 
 #: pretalx/orga/views/event.py:203
 #, read-only
@@ -8603,7 +8603,7 @@ msgstr "You can only regenerate mails after the first schedule was released."
 #: pretalx/orga/views/schedule.py:507
 #, read-only
 msgid "The session has been scheduled."
-msgstr "The session has been scheduled."
+msgstr "The workshop has been scheduled."
 
 #: pretalx/orga/views/schedule.py:530
 #: pretalx/schedule/models/slot.py:47
@@ -8614,7 +8614,7 @@ msgstr "Room"
 #: pretalx/orga/views/schedule.py:544
 #, read-only
 msgid "There is or was a session scheduled in this room. It cannot be deleted."
-msgstr "There is or was a session scheduled in this room. It cannot be deleted."
+msgstr "There is or was a workshop scheduled in this room. It cannot be deleted."
 
 #: pretalx/orga/views/speaker.py:286
 #, ignore-reused, read-only
@@ -8988,7 +8988,7 @@ msgstr "iCal (full event)"
 #: pretalx/schedule/exporters.py:324
 #, read-only
 msgid "iCal (your starred sessions)"
-msgstr "iCal (your starred sessions)"
+msgstr "iCal (your starred workshops)"
 
 #: pretalx/schedule/forms.py:20
 #, read-only
@@ -9101,7 +9101,7 @@ msgstr "Room {room_name} is not available at the scheduled time."
 #: pretalx/schedule/models/schedule.py:412
 #, read-only
 msgid "Another session in the same room overlaps with this one."
-msgstr "Another session in the same room overlaps with this one."
+msgstr "Another workshop in the same room overlaps with this one."
 
 #: pretalx/schedule/models/schedule.py:444
 #, python-brace-format, read-only
@@ -9111,7 +9111,7 @@ msgstr "{speaker} is not available at the scheduled time."
 #: pretalx/schedule/models/schedule.py:472
 #, python-brace-format, read-only
 msgid "{speaker} is scheduled for another session at the same time."
-msgstr "{speaker} is scheduled for another session at the same time."
+msgstr "{speaker} is scheduled for another workshop at the same time."
 
 #: pretalx/schedule/models/slot.py:48
 #, read-only
@@ -9184,17 +9184,17 @@ msgstr "All times in %(tz)s"
 #: pretalx/schedule/phrases.py:32
 #, read-only
 msgid "There has been no feedback for this session yet."
-msgstr "There has been no feedback for this session yet."
+msgstr "There has been no feedback for this workshop yet."
 
 #: pretalx/schedule/templates/schedule/speaker_notification.txt:2
 #, python-format, read-only
 msgid "- Your session “%(title)s” will take place at %(start)s in %(location)s"
-msgstr "- Your session “%(title)s” will take place at %(start)s in %(location)s"
+msgstr "- Your workshop “%(title)s” will take place at %(start)s in %(location)s"
 
 #: pretalx/schedule/templates/schedule/speaker_notification.txt:3
 #, python-format, read-only
 msgid "- Your session “%(title)s” has been moved to %(start)s in %(location)s"
-msgstr "- Your session “%(title)s” has been moved to %(start)s in %(location)s"
+msgstr "- Your workshop “%(title)s” has been moved to %(start)s in %(location)s"
 
 #: pretalx/settings.py:344
 #, read-only
@@ -9383,8 +9383,8 @@ msgid ""
 "You can restrict the access code to a single session type, or leave it open "
 "for all session types."
 msgstr ""
-"You can restrict the access code to a single session type, or leave it open "
-"for all session types."
+"You can restrict the access code to a single workshop type, or leave it open "
+"for all workshop types."
 
 #: pretalx/submission/models/access_code.py:51
 #, read-only
@@ -9418,7 +9418,7 @@ msgstr "text"
 #: pretalx/submission/models/cfp.py:101
 #, read-only
 msgid "Default session type"
-msgstr "Default session type"
+msgstr "Default workshop type"
 
 #: pretalx/submission/models/cfp.py:108
 #, read-only
@@ -9519,7 +9519,7 @@ msgstr "Field type"
 #: pretalx/submission/models/question.py:143
 #, read-only
 msgid "Do you require an answer from every speaker or for every session?"
-msgstr "Do you require an answer from every teacher or for every session?"
+msgstr "Do you require an answer from every teacher or for every workshop?"
 
 #: pretalx/submission/models/question.py:150
 #, read-only
@@ -9554,8 +9554,8 @@ msgid ""
 "You can limit this field to some session types. Leave empty to apply to all "
 "session types."
 msgstr ""
-"You can limit this field to some session types. Leave empty to apply to all "
-"session types."
+"You can limit this field to some workshop types. Leave empty to apply to all "
+"workshop types."
 
 #: pretalx/submission/models/question.py:181
 #, read-only
@@ -9649,7 +9649,7 @@ msgid ""
 "note that you cannot make a field public after the first answers have been "
 "given, to allow speakers explicit consent before publishing information."
 msgstr ""
-"Responses will be shown on session or teacher pages as appropriate. Please "
+"Responses will be shown on workshop or teacher pages as appropriate. Please "
 "note that you cannot make a field public after the first answers have been "
 "given, to allow teachers explicit consent before publishing information."
 
@@ -9851,17 +9851,17 @@ msgstr "The duration in minutes."
 #: pretalx/submission/models/submission.py:260
 #, read-only
 msgid "How many times this session will take place."
-msgstr "How many times this session will take place."
+msgstr "How many times this workshop will take place."
 
 #: pretalx/submission/models/submission.py:270
 #, read-only
 msgid "Show this session in public list of featured sessions."
-msgstr "Show this session in public list of featured sessions."
+msgstr "Show this workshop in public list of featured workshops."
 
 #: pretalx/submission/models/submission.py:273
 #, read-only
 msgid "Don’t record this session."
-msgstr "Don’t record this session."
+msgstr "Don’t record this workshop."
 
 #: pretalx/submission/models/submission.py:295
 #, read-only
@@ -9937,7 +9937,7 @@ msgid ""
 "If you want a different deadline than the global deadline for this session "
 "type, enter it here."
 msgstr ""
-"If you want a different deadline than the global deadline for this session "
+"If you want a different deadline than the global deadline for this workshop "
 "type, enter it here."
 
 #: pretalx/submission/models/type.py:49
@@ -9946,7 +9946,7 @@ msgid ""
 "This session type will only be shown to submitters with a matching access "
 "code."
 msgstr ""
-"This session type will only be shown to submitters with a matching access "
+"This workshop type will only be shown to submitters with a matching access "
 "code."
 
 #: pretalx/submission/models/type.py:79
@@ -9982,7 +9982,7 @@ msgstr "Availabilities"
 
 #, read-only
 msgid "Filter sessions"
-msgstr "Filter sessions"
+msgstr "Filter workshops"
 
 #: pretalx/orga/views/organiser.py:202
 #, ignore-reused, read-only
@@ -10057,7 +10057,7 @@ msgid ""
 "speakers in one session)?"
 msgstr ""
 "How do you want to separate data within a single cell (for example, multiple "
-"teachers in one session)?"
+"teachers in one workshop)?"
 
 #: pretalx/orga/templates/orga/user.html:36
 #, python-format, read-only
