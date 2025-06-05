@@ -96,7 +96,7 @@ msgid ""
 "follow up with the full schedule in time, stay tuned!"
 msgstr ""
 "We prepared a list of exciting workshops, so you can get a feel for our "
-"conference. Please keep in mind that this is not our full schedule. We will "
+"event. Please keep in mind that this is not our full schedule. We will "
 "follow up with the full schedule in time, stay tuned!"
 
 #: pretalx/agenda/templates/agenda/featured.html:23
@@ -572,7 +572,7 @@ msgstr ""
 #: pretalx/cfp/templates/cfp/event/invitation.html:20
 #, read-only
 msgid "Please contact the conference organizers for more information."
-msgstr "Please contact the conference organizers for more information."
+msgstr "Please contact the event organizers for more information."
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:26
 #, python-format, read-only
@@ -1766,7 +1766,7 @@ msgid ""
 "conference, or why you think it would not be a good fit."
 msgstr ""
 "Please give a fair review on why you’d like to see this proposal at the "
-"conference, or why you think it would not be a good fit."
+"event, or why you think it would not be a good fit."
 
 #: pretalx/common/models/settings.py:72
 #, python-brace-format, read-only
@@ -3314,7 +3314,7 @@ msgstr ""
 "\n"
 "We look forward to seeing you at {event_name} - Please contact us if you "
 "have any\n"
-"questions! We will reach out again before the conference to tell you "
+"questions! We will reach out again before the event to tell you "
 "details\n"
 "about your slot in the schedule and technical details concerning the room\n"
 "and presentation tech.\n"
@@ -5719,7 +5719,7 @@ msgstr "How open you are to alternative topics"
 #: pretalx/orga/templates/orga/cfp/text.html:38
 #, read-only
 msgid "The people coming to your conference: interests, experience level …"
-msgstr "The people coming to your conference: interests, experience level …"
+msgstr "The people coming to your event: interests, experience level …"
 
 #: pretalx/orga/templates/orga/cfp/text.html:39
 #, read-only
@@ -7482,7 +7482,7 @@ msgid ""
 "speakers above the list of their submitted sessions."
 msgstr ""
 "Add important messages (e.g. “Please bring an HDMI adapter if required.”) or "
-"files (e.g. a conference styleguide). <br> They are shown to the selected "
+"files (e.g. a event styleguide). <br> They are shown to the selected "
 "teachers above the list of their submitted workshops."
 
 #: pretalx/orga/templates/orga/speaker/information_list.html:45
@@ -8997,7 +8997,7 @@ msgid ""
 "green blocks. We will try to schedule your slot during these times. You can "
 "click a block twice to remove it."
 msgstr ""
-"Please click and drag to mark your availability during the conference with "
+"Please click and drag to mark your availability during the event with "
 "green blocks. We will try to schedule your slot during these times. You can "
 "click a block twice to remove it."
 
