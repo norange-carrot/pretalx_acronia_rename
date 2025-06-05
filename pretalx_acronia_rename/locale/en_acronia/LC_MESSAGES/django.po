@@ -32,7 +32,7 @@ msgstr "This workshop will not be recorded."
 #: pretalx/agenda/phrases.py:13
 #, read-only
 msgid "View conference schedule"
-msgstr "View conference schedule"
+msgstr "View workshop schedule"
 
 #: pretalx/agenda/phrases.py:14
 #, read-only
