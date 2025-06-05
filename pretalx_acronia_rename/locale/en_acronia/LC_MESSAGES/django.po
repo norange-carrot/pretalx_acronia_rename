@@ -199,8 +199,8 @@ msgstr "The teacher’s profile picture"
 #, read-only
 msgid "Session"
 msgid_plural "Sessions"
-msgstr[0] "Session"
-msgstr[1] "Sessions"
+msgstr[0] "Workshop"
+msgstr[1] "Workshops"
 
 #: pretalx/agenda/templates/agenda/talk.html:48
 #, read-only
@@ -1124,7 +1124,7 @@ msgstr ""
 #: pretalx/submission/models/submission.py:194
 #, read-only
 msgid "Session type"
-msgstr "Session type"
+msgstr "Workshop type"
 
 #: pretalx/cfp/templates/cfp/includes/user_submission_header.html:52
 #: pretalx/orga/templates/orga/cfp/submitteraccesscode/list.html:47
@@ -3138,7 +3138,7 @@ msgstr "The name(s) of all teachers in this proposal."
 #: pretalx/mail/context.py:210
 #, read-only
 msgid "Session Type A"
-msgstr "Session Type A"
+msgstr "Workshop Type A"
 
 #: pretalx/mail/context.py:211
 #, read-only
@@ -5291,7 +5291,7 @@ msgstr "Editor"
 #: pretalx/submission/forms/submission.py:251
 #, read-only
 msgid "Session types"
-msgstr "Session types"
+msgstr "Workshop types"
 
 #: pretalx/orga/templates/orga/base.html:271
 #: pretalx/orga/views/cfp.py:490
@@ -5816,7 +5816,7 @@ msgstr "Recording opt-out"
 #: pretalx/submission/models/submission.py:279
 #, ignore-reused, read-only
 msgid "Session image"
-msgstr "Session image"
+msgstr "Workshop image"
 
 #: pretalx/orga/templates/orga/cfp/text.html:204
 #: pretalx/schedule/forms.py:18
@@ -6217,7 +6217,7 @@ msgstr "Send emails"
 #: pretalx/orga/templates/orga/mails/compose_session_mail_form.html:6
 #, read-only
 msgid "Sessions, proposals, speakers"
-msgstr "Sessions, proposals, teachers"
+msgstr "Workshops, proposals, teachers"
 
 #: pretalx/orga/templates/orga/mails/compose_choice.html:15
 #, read-only
@@ -7806,7 +7806,7 @@ msgstr "Proposals by submission date"
 #: pretalx/orga/templates/orga/submission/stats.html:36
 #, read-only
 msgid "Sessions by submission date"
-msgstr "Sessions by submission date"
+msgstr "Workshops by submission date"
 
 #: pretalx/orga/templates/orga/submission/stats.html:39
 #, read-only
@@ -7821,7 +7821,7 @@ msgstr "Proposals by session type"
 #: pretalx/orga/templates/orga/submission/stats.html:47
 #, read-only
 msgid "Sessions by session type"
-msgstr "Sessions by session type"
+msgstr "Workshops by session type"
 
 #: pretalx/orga/templates/orga/submission/stats.html:57
 #, read-only
@@ -7831,7 +7831,7 @@ msgstr "Proposals by track"
 #: pretalx/orga/templates/orga/submission/stats.html:58
 #, read-only
 msgid "Sessions by track"
-msgstr "Sessions by track"
+msgstr "Workshops by track"
 
 #: pretalx/orga/templates/orga/submission/stats.html:68
 #, read-only
@@ -7841,7 +7841,7 @@ msgstr "Proposals by state"
 #: pretalx/orga/templates/orga/submission/stats.html:69
 #, read-only
 msgid "Sessions by state"
-msgstr "Sessions by state"
+msgstr "Workshops by state"
 
 #: pretalx/orga/templates/orga/submission/tag/list.html:5
 #: pretalx/orga/views/submission.py:974
@@ -7992,17 +7992,17 @@ msgstr "Could not send mails, error in configuration."
 #: pretalx/orga/views/cfp.py:403
 #, read-only
 msgid "New Session Type"
-msgstr "New Session Type"
+msgstr "New Workshop Type"
 
 #: pretalx/orga/views/cfp.py:412
 #, read-only
 msgid "This Session Type is in use in a proposal and cannot be deleted."
-msgstr "This Session Type is in use in a proposal and cannot be deleted."
+msgstr "This Workshop Type is in use in a proposal and cannot be deleted."
 
 #: pretalx/orga/views/cfp.py:433
 #, read-only
 msgid "The Session Type has been made default."
-msgstr "The Session Type has been made default."
+msgstr "The Workshop Type has been made default."
 
 #: pretalx/orga/views/cfp.py:466
 #, read-only
@@ -9149,7 +9149,7 @@ msgstr "Schedule"
 #: pretalx/schedule/phrases.py:13
 #, read-only
 msgid "Sessions"
-msgstr "Sessions"
+msgstr "Workshops"
 
 #: pretalx/schedule/phrases.py:20
 #, read-only
@@ -9375,7 +9375,7 @@ msgstr ""
 #: pretalx/submission/models/access_code.py:40
 #, read-only
 msgid "Session Type"
-msgstr "Session Type"
+msgstr "Workshop Type"
 
 #: pretalx/submission/models/access_code.py:42
 #, read-only
@@ -9560,7 +9560,7 @@ msgstr ""
 #: pretalx/submission/models/question.py:181
 #, read-only
 msgid "Session Types"
-msgstr "Session Types"
+msgstr "Workshop Types"
 
 #: pretalx/submission/models/question.py:184
 #, read-only
