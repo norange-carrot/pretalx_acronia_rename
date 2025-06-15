@@ -33,12 +33,14 @@ Development setup
                 "name": _("English (Acronia)"),
                 "natural_name": "English",
                 "official": False,
+                "percentage": 100,
                 "public_code": "en_Acronia",
             },
             "de-acronia": {    
                 "name": _("Deutsch (Acronia)"),
                 "natural_name": "Deutsch",
                 "official": False,
+                "percentage": 100,
                 "public_code": "de_Acronia",
             },
         }
