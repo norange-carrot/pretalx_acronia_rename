@@ -13,10 +13,3 @@ def register_locales(**kwargs):
         if "pretalx_acronia_rename" not in getattr(event, "plugin_list", None) or []:
             return []
     return ["de-acronia", "en-acronia"]
-
-@receiver(html_head, dispatch_uid="acronia_html_head")
-def add_stylesheet(sender, request, **kwargs):
-    if "de-acronia" and "en-acronia" not in request.event.locales:
-        return ""
-    template = get_template("pretalx_acronia_rename/style.html")
-    return template.render()
