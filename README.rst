@@ -48,6 +48,8 @@ Development setup
 7. Restart your local pretalx server. This plugin should show up in the plugin list shown on startup in the console.
    You can now use the plugin from this repository for your events by enabling it in the 'plugins' tab in the settings.
 
+8. In the settings of your event, you can now select the language "English (Acronia)" or "Deutsch (Acronia)".
+
 This plugin has CI set up to enforce a few code style rules. To check locally, you need these packages installed::
 
     pip install flake8 flake8-bugbear isort black
